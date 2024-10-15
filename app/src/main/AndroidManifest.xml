@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme._124LTTD04_TravelAppProject">
+
+        <activity
+            android:name=".view.flight.plane_SignIn_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- hotel -->
+        <activity android:name=".view.hotel.hotel_MainActivityPay_Activity" android:exported="false" />
+        <activity android:name=".view.hotel.hotel_MainInf_Activity" />
+        <activity android:name=".view.hotel.hotel_MainRoom_Activity" />
+        <activity android:name=".view.hotel.hotel_MainHome_Activity" />
+        <activity android:name=".view.hotel.hotel_MainHotel_Activity" android:exported="false" />
+
+        <!-- tour -->
+        <activity android:name=".view.tour.tour_Tour_Activity" android:exported="true" />
+        <activity android:name=".view.tour.tour_CoTheBanSeThich_Activity" />
+        <activity android:name=".view.tour.tour_ChiTiet_Activity" />
+        <activity android:name=".view.tour.tour_DatVe_Activity" />
+        <activity android:name=".view.tour.tour_DatVe_DatCho_Activity" />
+        <activity android:name=".view.tour.tour_DatVe_ClickDatNgayKhiChuaChonVe_Activity" />
+        <activity android:name=".view.tour.tour_DatVe_ChonSoLuongVe_Activity" />
+        <activity android:name=".view.tour.tour_DatVe_ThanhToan_Activity" />
+
+        <!-- flight -->
+        <activity android:name=".view.flight.plane_TimKiemChuyenBay_Activity" android:exported="true" />
+        <activity android:name=".view.flight.plane_ChonChuyenBay_Activity" android:exported="true" />
+        <activity android:name=".view.flight.plane_XacNhanGiaChuyenBay_Activity" android:exported="true" />
+        <activity android:name=".view.flight.plane_ThemHanhLy_Activity" android:exported="true" />
+        <activity android:name=".view.flight.plane_ChuyenBay_ThanhToan_Activity" android:exported="true" />
+        <activity android:name=".view.flight.plane_VeMayBay_Activity" android:exported="true" />
+        <activity android:name=".view.flight.plane_LogIn_Activity" android:exported="true" />
+
+    </application>
+</manifest>

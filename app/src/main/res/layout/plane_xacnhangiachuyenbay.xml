@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main3"
+    android:orientation="vertical"
+    android:background="#ECECEC">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bkchonchuyenbay"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/exit"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="@drawable/btnclose"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginRight="30dp">
+                        </Button>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Thêm thông tin hành khách"
+                            android:layout_marginTop="18dp"
+                            android:textColor="@color/white"
+                            android:textSize="22dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="5dp">
+
+                        </TextView>
+                        <Button
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="@drawable/share"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginLeft="20dp">
+                        </Button>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="370dp"
+                    android:layout_height="220dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="65dp"
+                    android:background="@drawable/vemaybay_border">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="BAY ĐI"
+                            android:textStyle="bold"
+                            android:textSize="17dp"
+                            android:layout_gravity="center">
+
+                        </TextView>
+                        <Button
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="@drawable/down"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="240dp">
+
+                        </Button>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hà Nội (HAN)"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="18dp">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Th7,25 thg 1 2025"
+                                android:layout_marginTop="5dp">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="22:55"
+                                android:layout_marginTop="5dp">
+                            </TextView>
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="34dp"
+                                android:background="@drawable/th1"
+                                android:layout_marginTop="5dp">
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="15dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2h 15m"
+                                android:layout_gravity="center">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="--Bay thẳng-->">
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="15dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="TP HCM (SGN)"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="18dp">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Th 7, 25 thg 1 2025"
+                                android:layout_marginTop="5dp">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="23:10"
+                                android:layout_marginTop="5dp">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nguyên bản . Promo"
+                                android:layout_marginTop="5dp">
+
+                            </TextView>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hành khách"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp">
+            </TextView>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/vemaybay_border"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Người lớn 1"
+                    android:layout_gravity="center"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="10dp">
+                </TextView>
+                <Button
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/add"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="210dp">
+
+                </Button>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Các thông tin cần thiết cho chuyến bay"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp">
+            </TextView>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="210dp"
+                android:orientation="vertical"
+                android:background="@drawable/vemaybay_border"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/luggage_scan"
+                        android:layout_marginRight="10dp">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hành lý"
+                        android:textSize="18dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black">
+                    </TextView>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18dp"
+                    android:text="Sao bạn phải cố nhồi nhét ? Thêm hành lý để chuyến đi thêm nhẹ nhàng">
+                </TextView>
+                <LinearLayout
+                    android:layout_width="370dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/xacnhanchuyenbay_boder"
+                    android:layout_marginTop="22dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Từ 200.000 VND"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#DC2020">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/themhanhly"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chọn"
+                        android:layout_gravity="center"
+                        android:textColor="#07C5F4"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_marginLeft="110dp">
+                    </TextView>
+                    <Button
+                        android:id="@+id/themhanhly1"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/next_button"
+                        android:layout_gravity="center">
+
+                    </Button>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="410dp"
+                android:layout_height="160dp"
+                android:orientation="vertical"
+                android:background="@color/white">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tổng giá tiền cho một người"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:textSize="19dp">
+                    </TextView>
+                    <Button
+                        android:id="@+id/thanhtoan"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:text="Tiếp tục"
+                        android:background="@drawable/button_maybay"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="6dp">
+                    </Button>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.508.651 VND"
+                    android:textColor="#F34602"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="20dp"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đã bao gồm tát cả giá vé và thuế"
+                    android:textColor="#B3A7A2"
+                    android:textStyle="bold"
+                    android:textSize="19dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:menu="@menu/menu_bottom_nav"
+            >
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </LinearLayout>
+</LinearLayout>
