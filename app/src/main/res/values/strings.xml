@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">124LTTD04_TravelAppProject</string>
+
+    <!-- Options for Giá -->
+    <string-array name="gia_options">
+        <item>Giá</item>
+        <item>&lt; 500.000đ</item>
+        <item>&gt;= 500.000đ</item>
+    </string-array>
+
+    <!-- Options for Thành phố -->
+    <string-array name="thanhpho_options">
+        <item>Thành phố</item>
+        <item>Đà Nẵng</item>
+        <item>Hà Nội</item>
+        <item>Tp. Hồ Chí Minh</item>
+        <item>Hải Phòng</item>
+        <item>Huế</item>
+    </string-array>
+
+    <!-- Options for Danh mục -->
+    <string-array name="danhmuc_options">
+        <item>Danh mục</item>
+        <item>Điểm tham quan</item>
+        <item>Sân chơi</item>
+        <item>Tour</item>
+        <item>Nhạc hội &amp; Sự kiện</item>
+    </string-array>
+
+    <!-- Options for Số lượng -->
+    <string-array name="soluong_options">
+        <item>Số lượng</item>
+        <item>1 người</item>
+        <item>2 người</item>
+        <item>3 người</item>
+        <item>&gt; 4 người</item>
+    </string-array>
+</resources>

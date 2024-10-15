@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="xanh">#00FF04</color>
+    <color name="overlay_color">#B3FDFCFC</color>
+    <color name="xám">#B3595757</color>
+    <color name="xanhncbien">#0099FF</color>
+    <color name="background">#17D2EF</color>
+</resources>

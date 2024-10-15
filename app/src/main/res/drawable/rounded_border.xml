@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="16dp"/> <!-- Bán kính viền -->
+    <stroke
+        android:width="2dp"
+        android:color="#80FFFFFF"/> <!-- Màu và độ trong suốt của viền -->
+    <solid android:color="#00000000"/> <!-- Màu nền trong suốt -->
+</shape>
