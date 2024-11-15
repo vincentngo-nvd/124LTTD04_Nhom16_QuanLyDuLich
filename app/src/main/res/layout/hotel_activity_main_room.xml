@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
+        android:background="#17D2EF"
         android:layout_weight="1">
 
         <!-- Thanh tiêu đề -->
@@ -61,57 +62,73 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:padding="10dp">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="16dp"
                         android:textStyle="bold"
+                        android:textColor="@color/black"
                         android:padding="5dp"
                         android:text="Khách sạn Mường Thanh luxury Nha Trang" />
+
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="0.5sp"
                         android:background="@android:color/darker_gray" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="14dp"
                         android:textStyle="bold"
+                        android:textColor="@color/black"
                         android:padding="5dp"
                         android:text="Mô tả khách sạn" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="10dp"
                         android:padding="5dp"
                         android:alpha="0.7"
+                        android:textColor="@color/black"
                         android:text="Quầy tiếp tân 24 giờ luôn sẵn sàng phục vụ quý khách. Nếu cần giúp đỡ xin hãy liên hệ đội ngũ tiếp tân, chúng tôi sẵn sàng hỗ trợ quý khách." />
+
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="0.5sp"
                         android:background="@android:color/darker_gray" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="14dp"
                         android:textStyle="bold"
                         android:padding="5dp"
+                        android:textColor="@color/black"
                         android:text="Chính sách" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="10dp"
                         android:alpha="0.7"
                         android:paddingLeft="5dp"
+                        android:textColor="@color/black"
                         android:text="Hướng dẫn nhận phòng chung" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="10dp"
                         android:alpha="0.7"
                         android:padding="5dp"
+                        android:textColor="@color/black"
                         android:text="Chính sách bổ sung" />
+
                 </LinearLayout>
+
             </LinearLayout>
 
             <!-- Phần chọn số lượng người và nút thay đổi -->
@@ -138,6 +155,7 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="Thay đổi"
+                    android:textColor="@color/white"
                     android:backgroundTint="#0788FF"
                     android:layout_gravity="center" />
             </LinearLayout>

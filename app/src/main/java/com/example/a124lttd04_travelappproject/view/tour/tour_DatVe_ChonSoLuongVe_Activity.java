@@ -17,15 +17,12 @@ public class tour_DatVe_ChonSoLuongVe_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tour_datve_chonsoluongve);
 
-        // Bắt sự kiện click vào từng layout
         setupClickListeners();
     }
 
-    // Phương thức để set sự kiện click cho các layout
     private void setupClickListeners() {
         LinearLayout firstProduct = findViewById(R.id.first_product_chonsoluongve);
 
-        // Set sự kiện cho mỗi layout
         firstProduct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,23 +31,19 @@ public class tour_DatVe_ChonSoLuongVe_Activity extends AppCompatActivity {
         });
         ImageView backButton = findViewById(R.id.back_button);
 
-        // Set the click listener for the ImageView
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Navigate to DatVe_DatCho_Activity
                 openDatChoActivity();
             }
         });
     }
 
-    // Phương thức để mở giao diện activity_tour_chitiet.xml
     private void openDatChoActivity() {
         Intent intent = new Intent(tour_DatVe_ChonSoLuongVe_Activity.this, tour_ChiTiet_Activity.class);
         startActivity(intent);
     }
 
-    // Phương thức để mở giao diện activity_tour_chitiet.xml
     private void openDetailActivity() {
         Intent intent = new Intent(tour_DatVe_ChonSoLuongVe_Activity.this, tour_DatVe_DatCho_Activity.class);
         startActivity(intent);

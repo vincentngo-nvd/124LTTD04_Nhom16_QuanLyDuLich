@@ -4,7 +4,8 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="10dp"
-    android:layout_margin="10dp">
+    android:layout_margin="10dp"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,7 +25,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="10dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="@color/white">
 
             <TextView
                 android:id="@+id/tv_nameChooseHotel"
@@ -32,6 +34,7 @@
                 android:layout_height="wrap_content"
                 android:text="Khách sạn Mường Thanh Luxury Nha Trang"
                 android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="13sp">
             </TextView>
 
@@ -47,6 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Hương Xuân , Nha Trang ..."
+                android:textColor="@color/black"
                 android:textSize="10dp">
             </TextView>
 
@@ -67,6 +71,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Chọn phòng"
+                android:textColor="@color/white"
                 android:backgroundTint="#F96D0E"
                 android:layout_gravity="end"
                 android:layout_marginRight="10sp"

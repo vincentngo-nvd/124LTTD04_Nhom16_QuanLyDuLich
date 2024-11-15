@@ -59,10 +59,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="SGN - HAN . 2h 10m . Bay thẳng"
+                    android:text="SGN - HAN"
                     android:layout_gravity="center"
                     android:textColor="@color/white"
-                    android:textSize="17dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
                     android:layout_marginTop="20dp">
 
                 </TextView>
@@ -71,10 +72,11 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="horizontal"
                 android:background="@color/white">
 
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="135dp"
                     android:layout_height="wrap_content"
                     android:text="Chuyến bay"
                     android:background="@color/white"
@@ -82,16 +84,16 @@
                 </Button>
 
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="140dp"
                     android:layout_height="wrap_content"
-                    android:text="Các lợi ích đi kèm"
+                    android:text="Lợi ích đi kèm"
                     android:background="@color/white"
                     android:textColor="#918D8D">
 
                 </Button>
 
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="135dp"
                     android:layout_height="wrap_content"
                     android:text="Đổi lịch bay"
                     android:background="@color/white"
@@ -100,8 +102,8 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="410dp"
-                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
                 android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"
@@ -125,6 +127,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="2h10m"
+                    android:textColor="#FF0000"
                     android:layout_gravity="center"
                     android:layout_marginLeft="10dp">
 
@@ -132,15 +135,16 @@
 
             </LinearLayout>
             <LinearLayout
-                android:layout_width="410dp"
+                android:layout_width="match_parent"
                 android:layout_height="500dp"
                 android:orientation="horizontal"
                 android:background="@color/white">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="500dp"
                     android:orientation="vertical"
-                    android:layout_marginLeft="30dp"
+                    android:layout_marginLeft="10dp"
                     >
                     <TextView
                         android:layout_width="wrap_content"
@@ -216,6 +220,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Sân bay Tân Sơn Nhất"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="5dp"
                         android:textSize="19dp">
 
                     </TextView>
@@ -253,6 +259,7 @@
                             android:text="Nâng hạn chuyến bay của bạn"
                             android:layout_gravity="center"
                             android:textSize="14dp"
+                            android:textColor="#3F51B5"
                             android:background="@drawable/text_chonchuyenbay"
                             android:padding="7dp"
                             >
@@ -281,6 +288,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="7kg hành lý xách tay "
+                                android:textColor="@color/black"
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="20dp">
                             </TextView>
@@ -300,6 +308,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:textColor="@color/black"
                                 android:text="Giải trí trên chuyến bay không có sẵn "
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="20dp">
@@ -321,6 +330,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Wifi không có sẵn "
+                                android:textColor="@color/black"
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="20dp">
                             </TextView>
@@ -340,6 +350,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Cổng nguồn/USB không có sẵn "
+                                android:textColor="@color/black"
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="20dp">
                             </TextView>
@@ -358,6 +369,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/black"
                         android:text="Sân bay Nội Bài"
                         android:textSize="17dp">
                     </TextView>
@@ -366,7 +378,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="410dp"
+                android:layout_width="match_parent"
                 android:layout_height="116dp"
                 android:layout_marginTop="20dp"
                 android:background="@color/white"
@@ -379,8 +391,10 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginBottom="10dp"
-                    android:text="1.986.000 VND/khách"
-                    android:textSize="17dp"></TextView>
+                    android:text="1.986.000 VND/Khách"
+                    android:textSize="17dp">
+
+                </TextView>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -392,12 +406,12 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="1.639.000 VND/khách"
+                        android:text="1.639.000 VND/Khách"
                         android:layout_weight="1"
                         android:textColor="#F02A2A"
                         android:textSize="21dp"
                         android:textStyle="bold"
-                        android:layout_marginRight="70dp">
+                        android:layout_marginRight="50dp">
                     </TextView>
 
                     <Button

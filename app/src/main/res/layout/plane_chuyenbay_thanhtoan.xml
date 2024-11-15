@@ -65,7 +65,9 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:layout_marginRight="5dp"
-                            android:background="@drawable/plane_arrival"></ImageView>
+                            android:background="@drawable/plane_arrival">
+
+                        </ImageView>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -73,7 +75,9 @@
                             android:text="SGN --> HAN\n1 thg 10 2024"
                             android:textColor="@color/black"
                             android:textSize="20dp"
-                            android:textStyle="bold"></TextView>
+                            android:textStyle="bold">
+
+                        </TextView>
                     </LinearLayout>
 
                     <LinearLayout
@@ -122,6 +126,7 @@
                             android:layout_marginRight="10dp"
                             android:text="Thanh toán trong vòng"
                             android:textSize="12sp"
+                            android:textColor="@color/black"
                             android:textStyle="bold" />
 
                         <TextView
@@ -150,6 +155,7 @@
                             android:layout_marginTop="15dp"
                             android:text="Phương thức thanh toán"
                             android:textSize="20dp"
+                            android:textColor="@color/black"
                             android:textStyle="bold">
 
                         </TextView>
@@ -196,7 +202,10 @@
                         android:layout_marginTop="25dp"
                         android:text="Tổng tiền"
                         android:textSize="20dp"
-                        android:textStyle="bold"></TextView>
+                        android:textColor="@color/black"
+                        android:textStyle="bold">
+
+                    </TextView>
 
                     <LinearLayout
                         android:layout_width="340dp"

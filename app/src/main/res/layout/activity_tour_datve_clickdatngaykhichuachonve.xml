@@ -77,6 +77,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="[PROMO] Vé combo gia đình 4"
+                            android:textColor="@color/black"
                             android:textSize="16sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -97,6 +98,10 @@
                         android:background="#A9A6A5" />
                 </LinearLayout>
 
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -233,7 +238,31 @@
                             android:textStyle="bold" />
 
                     </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Th 3"
+                            android:textColor="@color/material_dynamic_neutral40" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="8 thg 10"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
                 </LinearLayout>
+                </HorizontalScrollView>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -311,7 +340,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="10dp"
-                                android:text="Người lớn (Trên 139cm và sinh sau năm 1960)"
+                                android:text="Người lớn (Trên 139cm)"
                                 android:textAllCaps="false"
                                 android:textColor="#8C8989"
                                 android:textSize="10dp" />

@@ -54,6 +54,7 @@
             android:layout_gravity="center"
             android:orientation="vertical"
             android:layout_margin="10dp"
+            android:padding="10dp"
             android:background="@drawable/no_stroke_border"
             >
             <Spinner
@@ -71,7 +72,10 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:backgroundTint="#FF5B00"
-                android:text="Tìm kiếm"></Button>
+                android:text="Tìm kiếm"
+                android:textColor="@color/white">
+
+            </Button>
         </LinearLayout>
 
         <ScrollView
@@ -82,16 +86,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="#FEE006">
+            android:background="#14CCE4">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Điểm đến nổi bật"
-                android:textSize="16dp"
+                android:textSize="18dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:padding="5dp"
+                android:textColor="@color/white"
                 android:textStyle="bold">
             </TextView>
 
@@ -106,6 +111,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Nha Trang"
+                    android:textColor="@color/white"
                     android:backgroundTint="#0788FF">
 
                 </Button>
@@ -118,6 +124,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Phú Quốc"
+                    android:textColor="@color/white"
                     android:backgroundTint="#0788FF">
 
                 </Button>
@@ -130,6 +137,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Đà Nẵng"
+                    android:textColor="@color/white"
                     android:backgroundTint="#0788FF">
                 </Button>
             </LinearLayout>

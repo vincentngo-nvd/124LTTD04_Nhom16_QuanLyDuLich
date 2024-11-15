@@ -12,13 +12,20 @@
         android:textStyle="bold"
         android:textSize="20sp"
         android:textColor="@color/white"
-        android:layout_margin="10dp">
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="0dp">
 
     </TextView>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rcv_categoryLocation"
         android:layout_width="match_parent"
+        android:padding="15dp"
+        android:background="@color/white"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp">
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp">
     </androidx.recyclerview.widget.RecyclerView>
 </LinearLayout>

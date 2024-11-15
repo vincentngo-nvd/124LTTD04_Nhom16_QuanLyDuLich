@@ -78,6 +78,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="BAY ĐI"
+                            android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textSize="17dp"
                             android:layout_gravity="center">
@@ -117,6 +118,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Th7,25 thg 1 2025"
+                                android:textColor="@color/black"
                                 android:layout_marginTop="5dp">
 
                             </TextView>
@@ -124,6 +126,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="22:55"
+                                android:textColor="@color/black"
                                 android:layout_marginTop="5dp">
                             </TextView>
                             <TextView
@@ -145,12 +148,14 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="2h 15m"
+                                android:textColor="@color/black"
                                 android:layout_gravity="center">
 
                             </TextView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:textColor="@color/black"
                                 android:text="--Bay thẳng-->">
 
                             </TextView>
@@ -173,6 +178,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:textColor="@color/black"
                                 android:text="Th 7, 25 thg 1 2025"
                                 android:layout_marginTop="5dp">
 
@@ -180,6 +186,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:textColor="@color/black"
                                 android:text="23:10"
                                 android:layout_marginTop="5dp">
 
@@ -187,6 +194,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:textColor="@color/black"
                                 android:text="Nguyên bản . Promo"
                                 android:layout_marginTop="5dp">
 
@@ -220,6 +228,7 @@
                     android:text="Người lớn 1"
                     android:layout_gravity="center"
                     android:textSize="17dp"
+                    android:textColor="@color/black"
                     android:layout_marginLeft="10dp">
                 </TextView>
                 <Button
@@ -276,7 +285,7 @@
                     android:layout_marginLeft="18dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="5dp"
-                    android:textSize="18dp"
+                    android:textSize="15dp"
                     android:text="Sao bạn phải cố nhồi nhét ? Thêm hành lý để chuyến đi thêm nhẹ nhàng">
                 </TextView>
                 <LinearLayout
@@ -294,7 +303,7 @@
                         android:layout_marginLeft="40dp"
                         android:textSize="20dp"
                         android:textStyle="bold"
-                        android:textColor="#DC2020">
+                        android:textColor="#FF0000">
                     </TextView>
                     <TextView
                         android:id="@+id/themhanhly"
@@ -334,7 +343,8 @@
                         android:text="Tổng giá tiền cho một người"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
-                        android:textSize="19dp">
+                        android:layout_marginRight="30dp"
+                        android:textSize="16dp">
                     </TextView>
                     <Button
                         android:id="@+id/thanhtoan"
@@ -361,10 +371,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Đã bao gồm tát cả giá vé và thuế"
+                    android:text="Đã bao gồm tất cả giá vé và thuế"
                     android:textColor="#B3A7A2"
                     android:textStyle="bold"
-                    android:textSize="19dp"
+                    android:textSize="16dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp">
                 </TextView>

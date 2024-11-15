@@ -21,7 +21,9 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:paddingTop="2dp"
-            android:src="@drawable/back_24"></ImageView>
+            android:src="@drawable/back_24">
+
+        </ImageView>
 
         <TextView
             android:layout_width="wrap_content"
@@ -46,6 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:padding="10dp"
                 android:background="@drawable/hotel_pay"
                 android:orientation="vertical">
 
@@ -54,8 +57,11 @@
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:text="Ngày / Phòng"
+                    android:textColor="@color/black"
                     android:textSize="20dp"
-                    android:textStyle="bold"></TextView>
+                    android:textStyle="bold">
+
+                </TextView>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -120,7 +126,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:layout_marginLeft="30dp"
-                        android:background="@android:color/darker_gray"></View>
+                        android:background="@android:color/darker_gray">
+
+                    </View>
                 </LinearLayout>
 
             </LinearLayout>
@@ -129,6 +137,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:padding="10dp"
                 android:background="@drawable/hotel_pay"
                 android:orientation="vertical">
 
@@ -138,7 +147,10 @@
                     android:padding="5dp"
                     android:text="Thông tin khách hàng"
                     android:textSize="20dp"
-                    android:textStyle="bold"></TextView>
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
 
                 <EditText
                     android:layout_width="match_parent"
@@ -163,6 +175,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:padding="10dp"
                 android:background="@drawable/hotel_pay"
                 android:orientation="vertical">
 
@@ -172,6 +185,7 @@
                     android:padding="5dp"
                     android:text="Phương thức thanh toán"
                     android:textSize="20dp"
+                    android:textColor="@color/black"
                     android:textStyle="bold">
 
                 </TextView>
@@ -189,7 +203,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp"
-                        android:src="@drawable/momo"></ImageView>
+                        android:src="@drawable/momo">
+
+                    </ImageView>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -199,7 +215,10 @@
                         android:layout_weight="1"
                         android:text="Momo"
                         android:textSize="20dp"
-                        android:textStyle="bold"></TextView>
+                        android:textColor="@color/black"
+                        android:textStyle="bold">
+
+                    </TextView>
 
                     <CheckBox
                         android:layout_width="wrap_content"
@@ -221,7 +240,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp"
-                        android:src="@drawable/zalopay"></ImageView>
+                        android:src="@drawable/zalopay">
+
+                    </ImageView>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -230,12 +251,17 @@
                         android:layout_marginLeft="10dp"
                         android:layout_weight="1"
                         android:text="Zalopay"
+                        android:textColor="@color/black"
                         android:textSize="20dp"
-                        android:textStyle="bold"></TextView>
+                        android:textStyle="bold">
+
+                    </TextView>
 
                     <CheckBox
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"></CheckBox>
+                        android:layout_height="wrap_content">
+
+                    </CheckBox>
                 </LinearLayout>
 
             </LinearLayout>
@@ -244,6 +270,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:padding="10dp"
                 android:background="@drawable/hotel_pay"
                 android:orientation="vertical">
 
@@ -253,12 +280,17 @@
                     android:padding="10dp"
                     android:text="Chi phí thanh toán"
                     android:textSize="20dp"
-                    android:textStyle="bold"></TextView>
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@android:color/darker_gray"></View>
+                    android:background="@android:color/darker_gray">
+
+                </View>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -273,8 +305,11 @@
                         android:layout_gravity="center"
                         android:layout_weight="1"
                         android:paddingLeft="5dp"
+                        android:textColor="@color/black"
                         android:text="Tổng giá tiền"
-                        android:textSize="17dp"></TextView>
+                        android:textSize="17dp">
+
+                    </TextView>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -285,7 +320,6 @@
                         android:textColor="@android:color/holo_red_dark"
                         android:textSize="18dp"
                         android:textStyle="bold">
-
                     </TextView>
                 </LinearLayout>
 
@@ -296,8 +330,8 @@
                     android:layout_gravity="end"
                     android:layout_marginRight="20dp"
                     android:backgroundTint="#F96D0E"
+                    android:textColor="@color/white"
                     android:text="Tiếp tục">
-
                 </Button>
             </LinearLayout>
         </LinearLayout>
@@ -308,5 +342,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fitsSystemWindows="true"
-        app:menu="@menu/menu_bottom_nav" />
+        app:menu="@menu/menu_bottom_nav"/>
 </LinearLayout>

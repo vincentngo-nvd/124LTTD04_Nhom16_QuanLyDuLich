@@ -55,7 +55,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="5dp"
-                    android:text="Thứ Hai, 30 thg 9 2024. Economy"
+                    android:text="Thứ Hai, 30 thg 9 2024"
                     android:textColor="@color/white"
                     android:textSize="16dp" />
 
@@ -77,22 +77,23 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="10dp"
+                            android:padding="5dp"
                             android:gravity="center_horizontal"
+                            android:background="@drawable/border"
                             android:orientation="vertical">
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="10dp"
                                 android:text="CN, 29 thg 9"
-                                android:textColor="@color/white" />
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="Không có"
-                                android:textColor="@color/white"
+                                android:textColor="#FF0000"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -100,22 +101,23 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="10dp"
+                            android:padding="5dp"
+                            android:background="@drawable/border"
                             android:gravity="center_horizontal"
                             android:orientation="vertical">
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="10dp"
                                 android:text="Th 2, 30 thg 9"
-                                android:textColor="@color/white" />
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="1.739.000 VND"
-                                android:textColor="@color/white"
+                                android:textColor="#FF0000"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -123,22 +125,23 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="10dp"
+                            android:padding="5dp"
+                            android:background="@drawable/border"
                             android:gravity="center_horizontal"
                             android:orientation="vertical">
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="10dp"
-                                android:text="Th 3, 31 thg 9"
-                                android:textColor="@color/white" />
+                                android:text="Th 2, 30 thg 9"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="1.739.000 VND"
-                                android:textColor="@color/white"
+                                android:textColor="#FF0000"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -146,22 +149,23 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="10dp"
+                            android:padding="5dp"
+                            android:background="@drawable/border"
                             android:gravity="center_horizontal"
                             android:orientation="vertical">
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="10dp"
-                                android:text="Th 4, 1 thg 10"
-                                android:textColor="@color/white" />
+                                android:text="Th 2, 30 thg 9"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="1.739.000 VND"
-                                android:textColor="@color/white"
+                                android:textColor="#FF0000"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -169,22 +173,23 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="10dp"
+                            android:padding="5dp"
+                            android:background="@drawable/border"
                             android:gravity="center_horizontal"
                             android:orientation="vertical">
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="10dp"
-                                android:text="Th 5, 2 thg 10"
-                                android:textColor="@color/white" />
+                                android:text="Th 2, 30 thg 9"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="1.739.000 VND"
-                                android:textColor="@color/white"
+                                android:textColor="#FF0000"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -192,22 +197,23 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="10dp"
+                            android:padding="5dp"
+                            android:background="@drawable/border"
                             android:gravity="center_horizontal"
                             android:orientation="vertical">
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="10dp"
-                                android:text="Th 6, 3 thg 10"
-                                android:textColor="@color/white" />
+                                android:text="Th 2, 30 thg 9"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="1.739.000 VND"
-                                android:textColor="@color/white"
+                                android:textColor="#FF0000"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -215,22 +221,23 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="10dp"
+                            android:padding="5dp"
+                            android:background="@drawable/border"
                             android:gravity="center_horizontal"
                             android:orientation="vertical">
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="10dp"
-                                android:text="Th 7, 4 thg 10"
-                                android:textColor="@color/white" />
+                                android:text="Th 2, 30 thg 9"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="1.739.000 VND"
-                                android:textColor="@color/white"
+                                android:textColor="#FF0000"
                                 android:textStyle="bold" />
                         </LinearLayout>
                     </LinearLayout>
@@ -239,14 +246,14 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="410dp"
-                android:layout_height="735dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:background="#D0F0F4"
                 android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="340dp"
-                    android:layout_height="170dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/no_stroke_border"
@@ -304,50 +311,55 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="17dp"
+                            android:textAlignment="center"
                             android:text="22:45 - Bay thẳng --> 00:55"
                             android:textColor="@color/black"
                             android:textSize="18dp">
 
                         </TextView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:text="1.508.651 VND/khách"
-                            android:textColor="#F14400"
-                            android:textSize="16dp"
-                            android:textStyle="bold">
-
-                        </TextView>
                     </LinearLayout>
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
+                    <TextView
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="1.508.651 VND/khách"
+                        android:textColor="#F14400"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:textSize="16dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
                         android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:layout_marginRight="140dp"
-                            android:text="SGN">
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:text="SGN                    -->                     ">
 
                         </TextView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="HAN">
+                            android:text="HAN"
+                            android:textColor="@color/black"
+                            android:textSize="20dp">
 
                         </TextView>
                     </LinearLayout>
@@ -355,9 +367,9 @@
 
                 <LinearLayout
                     android:layout_width="340dp"
-                    android:layout_height="170dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="20dp"
                     android:background="@drawable/no_stroke_border"
                     android:orientation="vertical">
 
@@ -378,7 +390,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginLeft="15dp"
+                            android:layout_marginLeft="20dp"
                             android:text="Vietravel Airlines"
                             android:textColor="@color/black"
                             android:textSize="17dp"
@@ -413,56 +425,65 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="17dp"
+                            android:textAlignment="center"
                             android:text="22:45 - Bay thẳng --> 00:55"
                             android:textColor="@color/black"
                             android:textSize="18dp">
-                        </TextView>
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:text="1.508.651 VND/khách"
-                            android:textColor="#F14400"
-                            android:textSize="16dp"
-                            android:textStyle="bold">
                         </TextView>
                     </LinearLayout>
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
+                    <TextView
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="1.508.651 VND/khách"
+                        android:textColor="#F14400"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:textSize="16dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
                         android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:layout_marginRight="140dp"
-                            android:text="SGN">
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:text="SGN                    -->                     ">
+
                         </TextView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="HAN">
+                            android:text="HAN"
+                            android:textColor="@color/black"
+                            android:textSize="20dp">
+
                         </TextView>
                     </LinearLayout>
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="340dp"
-                    android:layout_height="170dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="20dp"
                     android:background="@drawable/no_stroke_border"
                     android:orientation="vertical">
 
@@ -476,13 +497,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="@drawable/th3">
+
                         </ImageView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginLeft="35dp"
+                            android:layout_marginLeft="45dp"
                             android:text="Vietravel Airlines"
                             android:textColor="@color/black"
                             android:textSize="17dp"
@@ -517,49 +539,55 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="17dp"
+                            android:textAlignment="center"
                             android:text="22:45 - Bay thẳng --> 00:55"
                             android:textColor="@color/black"
                             android:textSize="18dp">
-                        </TextView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:text="1.508.651 VND/khách"
-                            android:textColor="#F14400"
-                            android:textSize="16dp"
-                            android:textStyle="bold">
 
                         </TextView>
                     </LinearLayout>
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
+                    <TextView
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="1.508.651 VND/khách"
+                        android:textColor="#F14400"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:textSize="16dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
                         android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:layout_marginRight="140dp"
-                            android:text="SGN">
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:text="SGN                    -->                     ">
 
                         </TextView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="HAN">
+                            android:text="HAN"
+                            android:textColor="@color/black"
+                            android:textSize="20dp">
 
                         </TextView>
                     </LinearLayout>
@@ -567,9 +595,10 @@
 
                 <LinearLayout
                     android:layout_width="340dp"
-                    android:layout_height="170dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
                     android:background="@drawable/no_stroke_border"
                     android:orientation="vertical">
 
@@ -590,12 +619,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginLeft="15dp"
                             android:text="Vietravel Airlines"
                             android:textColor="@color/black"
                             android:textSize="17dp"
                             android:textStyle="bold">
-
                         </TextView>
 
                         <Button
@@ -603,7 +630,7 @@
                             android:layout_height="24dp"
                             android:layout_gravity="center"
                             android:layout_marginLeft="10dp"
-                            android:background="@drawable/down"></Button>
+                            android:background="@drawable/down"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -617,43 +644,44 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="20dp"
-                            android:text="2h10m"></TextView>
+                            android:text="2h10m"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="+1 ngày"></TextView>
+                            android:text="+1 ngày"/>
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="17dp"
+                            android:textAlignment="center"
                             android:text="22:45 - Bay thẳng --> 00:55"
                             android:textColor="@color/black"
                             android:textSize="18dp">
 
                         </TextView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:text="1.508.651 VND/khách"
-                            android:textColor="#F14400"
-                            android:textSize="16dp"
-                            android:textStyle="bold">
-
-                        </TextView>
                     </LinearLayout>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.508.651 VND/khách"
+                        android:textColor="#F14400"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:textSize="16dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
@@ -661,124 +689,19 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:layout_marginRight="140dp"
-                            android:text="SGN">
-
-                        </TextView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="HAN">
-
-                        </TextView>
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="340dp"
-                    android:layout_height="170dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/border"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/th1">
-
-                        </ImageView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:text="Vietravel Airlines"
                             android:textColor="@color/black"
-                            android:textSize="17dp"
-                            android:textStyle="bold">
+                            android:paddingBottom="5dp"
+                            android:textSize="20dp"
+                            android:text="SGN                    -->                     ">
 
                         </TextView>
 
-                        <Button
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:layout_gravity="center"
-                            android:layout_marginLeft="10dp"
-                            android:background="@drawable/down"></Button>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:orientation="horizontal"
-                        android:padding="10dp">
-
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginRight="20dp"
-                            android:text="2h10m"></TextView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="+1 ngày"></TextView>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="17dp"
-                            android:text="22:45 - Bay thẳng --> 00:55"
+                            android:text="HAN"
                             android:textColor="@color/black"
-                            android:textSize="18dp">
-
-                        </TextView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:text="1.508.651 VND/khách"
-                            android:textColor="#F14400"
-                            android:textSize="16dp"
-                            android:textStyle="bold">
-
-                        </TextView>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginRight="140dp"
-                            android:text="SGN">
-
-                        </TextView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="HAN">
+                            android:textSize="20dp">
 
                         </TextView>
                     </LinearLayout>

@@ -177,6 +177,7 @@
                                 android:layout_height="wrap_content"
                                 android:paddingBottom="5dp"
                                 android:text="Vé Công viên nước The Amazing Bay"
+                                android:textColor="@color/black"
                                 android:textSize="15sp"
                                 android:textStyle="bold" />
 
@@ -184,6 +185,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingBottom="5dp"
+                                android:textColor="@color/black"
                                 android:text="COMBO: Vé vào cửa The Amazing Bay &amp; The Amazing World"
                                 android:textSize="11sp" />
 
@@ -191,6 +193,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Người lớn: 1"
+                                android:textColor="@color/black"
                                 android:textSize="11sp" />
                         </LinearLayout>
                     </LinearLayout>
@@ -339,6 +342,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="5dp"
+                        android:textColor="@color/black"
                         android:text="Thông tin liên hệ (nhận vé/phiếu thanh toán)"
                         android:textSize="14sp"
                         android:textStyle="bold" />
@@ -347,6 +351,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="5dp"
+                        android:textColor="@color/black"
                         android:text="We will send all e-tickets/vouchers from this booking to this contact"
                         android:textSize="12sp" />
                 </LinearLayout>
@@ -406,6 +411,7 @@
                         android:layout_height="wrap_content"
                         android:paddingBottom="5dp"
                         android:text="Thông tin khách"
+                        android:textColor="@color/black"
                         android:textSize="14sp"
                         android:textStyle="bold" />
 
@@ -535,6 +541,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Giá bạn trả"
+                        android:textColor="@color/black"
                         android:textSize="14sp" />
 
                     <TextView

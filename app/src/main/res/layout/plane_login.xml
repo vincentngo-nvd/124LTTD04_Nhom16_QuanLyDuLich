@@ -26,10 +26,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="LOGIN HERE"
+            android:text="SIGN IN"
             android:layout_gravity="center"
             android:layout_marginBottom="90dp"
             android:textSize="30sp"
+            android:textStyle="bold"
             android:textColor="@color/white">
 
         </TextView>
@@ -48,10 +49,9 @@
                 android:layout_toStartOf="@+id/icon"
                 android:text="Email"
                 android:backgroundTint="@android:color/transparent"
-                android:textSize="20sp"
-                android:textColor="@color/white"
-                android:paddingStart="24dp"
-                android:paddingEnd="10dp" />
+                android:textSize="17dp"
+                android:textColor="#A09F9F"
+                android:paddingLeft="15dp"/>
 
             <TextView
                 android:id="@+id/icon"
@@ -59,7 +59,7 @@
                 android:layout_height="24dp"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:background="@drawable/user"
+                android:background="@drawable/ic_account_circle"
                 android:layout_marginRight="20dp"/>
         </RelativeLayout>
         <RelativeLayout
@@ -77,9 +77,9 @@
                 android:hint="Password"
                 android:backgroundTint="@android:color/transparent"
                 android:layout_gravity="center"
-                android:textSize="20dp"
-                android:textColorHint="@color/white"
-                android:layout_marginLeft="20dp"
+                android:textSize="17dp"
+                android:textColorHint="#A09F9F"
+                android:layout_marginLeft="11dp"
                 android:inputType="textPassword">
             </EditText>
             <TextView
@@ -87,7 +87,7 @@
                 android:layout_height="24dp"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:background="@drawable/lock"
+                android:background="@drawable/ic_lock"
                 android:layout_marginRight="20dp">
             </TextView>
         </RelativeLayout>
@@ -117,9 +117,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Forgot password ?"
+                android:text="Forgot password?"
                 android:layout_marginTop="15dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginLeft="25dp"
                 android:textColor="@color/white"
                 android:linksClickable="true">
             </TextView>
@@ -144,7 +144,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/new_account"
-            android:text="To Register New Account -->"
+            android:text="Register New Account -->"
             android:layout_gravity="center"
             android:layout_marginTop="218dp"
             android:textColor="@color/white"
@@ -152,36 +152,36 @@
             android:linksClickable="true">
         </TextView>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="345dp"
-            android:orientation="horizontal"
-            >
-            <TextView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:background="@drawable/c"
-                android:layout_gravity="center"
-                android:layout_marginRight="3dp"
-                >
-            </TextView>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="2022 Existing Login Form. All rights Reserved"
-                android:textColor="@color/white">
-            </TextView>
-        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="345dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            >-->
+<!--            <TextView-->
+<!--                android:layout_width="24dp"-->
+<!--                android:layout_height="24dp"-->
+<!--                android:background="@drawable/c"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                >-->
+<!--            </TextView>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:text="2024 Existing Login Form. All rights Reserved"-->
+<!--                android:textColor="@color/white">-->
+<!--            </TextView>-->
+<!--        </LinearLayout>-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Design by Nhom 16"
             android:textColor="@color/white"
             android:layout_gravity="bottom"
-            android:layout_marginLeft="150dp"
+            android:layout_marginLeft="140dp"
             android:layout_marginBottom="15dp"
             >
 

@@ -41,14 +41,14 @@
             </FrameLayout>
 
             <LinearLayout
-                android:layout_width="330dp"
-                android:layout_height="450dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/vemaybay_border"
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
@@ -56,8 +56,9 @@
                         android:id="@+id/btn1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:paddingRight="60dp"
                         android:background="@android:color/transparent"
-                        android:paddingLeft="20dp"
+                        android:paddingLeft="17dp"
                         android:text="Một chiều / Khứ hồi"
                         android:textColor="#45F106"
                         android:textStyle="bold">
@@ -66,16 +67,18 @@
 
                     <Button
                         android:id="@+id/btn2"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@android:color/transparent"
-                        android:paddingLeft="20dp"
+                        android:paddingLeft="17dp"
                         android:text="Nhiều thành phố"
-                        android:textColor="#7A7676"></Button>
+                        android:textColor="#7A7676">
+
+                    </Button>
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:background="@drawable/ngan_cach">
@@ -83,29 +86,31 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="330dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="17dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginBottom="5dp"
-                        android:text="Từ"></TextView>
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="37dp"
+                        android:text="Từ">
+                    </TextView>
 
                     <LinearLayout
-                        android:layout_width="330dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
-
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="17dp"
+                            android:layout_marginLeft="37dp"
                             android:layout_marginRight="20dp"
-                            android:background="@drawable/plane"></TextView>
+                            android:background="@drawable/plane">
+
+                        </TextView>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -116,7 +121,7 @@
                             android:id="@+id/noidi"
                             android:layout_width="24sp"
                             android:layout_height="24sp"
-                            android:layout_marginLeft="120dp"
+                            android:layout_marginLeft="125dp"
                             android:background="@drawable/down_arrow">
 
                         </Button>
@@ -134,31 +139,35 @@
                 </LinearLayout>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="17dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="37dp"
+                    android:padding="5dp"
+                    android:textColor="@color/black"
                     android:text="Đến">
 
                 </TextView>
 
                 <LinearLayout
-                    android:layout_width="330dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="12dp"
+                        android:layout_marginLeft="37dp"
                         android:layout_marginRight="17dp"
-                        android:background="@drawable/plane1"></TextView>
+                        android:background="@drawable/plane1">
+
+                    </TextView>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TP HN (HN)"></TextView>
+                        android:text="TP HN (HN)">
+
+                    </TextView>
 
                     <Button
                         android:id="@+id/noiden"
@@ -178,28 +187,33 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
+                    android:padding="5dp"
                     android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="17dp"
-                        android:text="Ngày đi"></TextView>
+                        android:layout_marginLeft="37dp"
+                        android:textColor="@color/black"
+                        android:text="Ngày đi">
+
+                    </TextView>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="195dp"
-                        android:text="Khứ hồi ?"></TextView>
+                        android:layout_marginLeft="180dp"
+                        android:textColor="@color/black"
+                        android:text="Khứ hồi ?">
+
+                    </TextView>
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
@@ -208,7 +222,7 @@
                     <Spinner
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:layout_marginLeft="15dp"
+                        android:layout_marginLeft="40dp"
                         android:layout_marginRight="17dp"
                         android:background="@drawable/schedule">
 
@@ -218,6 +232,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
                         android:text="Thứ Hai , 30 thg 9 2024">
 
                     </TextView>
@@ -226,7 +241,7 @@
                         android:id="@+id/switch_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="60dp" />
+                        android:layout_marginLeft="50dp" />
 
                 </LinearLayout>
 
@@ -240,15 +255,17 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
                     android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="17dp"
+                        android:layout_marginLeft="40dp"
                         android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
                         android:text="Hành khách">
 
                     </TextView>
@@ -258,13 +275,14 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="120dp"
                         android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
                         android:text="Hạng ghế">
 
                     </TextView>
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
@@ -272,7 +290,8 @@
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:background="@drawable/person"
-                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="40dp"
                         android:layout_marginRight="10dp"
                         ></Button>
 
@@ -290,7 +309,8 @@
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:background="@drawable/chair"
-                        android:layout_marginLeft="40dp">
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp">
                     </Button>
 
                     <Button
@@ -316,7 +336,8 @@
                     android:layout_width="280dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
                     android:background="@drawable/button_vemaybay"
                     android:text="Tìm Kiếm"
                     android:textColor="@color/white"
@@ -358,7 +379,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="40dp"
+                        android:layout_marginLeft="25dp"
                         android:layout_marginRight="20dp"
                         android:background="@drawable/plane_flight">
 
@@ -369,6 +390,7 @@
                         android:layout_height="wrap_content"
                         android:text="Bay nội địa tiết kiệm !"
                         android:textSize="28dp"
+                        android:textColor="#3F51B5"
                         android:textStyle="bold">
 
                     </TextView>
@@ -386,9 +408,11 @@
                         android:layout_marginLeft="7dp"
                         android:layout_marginRight="7dp"
                         android:background="@drawable/button_maybay1"
-                        android:text="Bay từ Hà Nội"
+                        android:text="Hà Nội"
                         android:textColor="@color/white"
-                        android:textStyle="bold"></Button>
+                        android:textStyle="bold">
+
+                    </Button>
 
                     <Button
                         android:id="@+id/btnTPHCM"
@@ -396,25 +420,29 @@
                         android:layout_height="40dp"
                         android:layout_marginRight="7dp"
                         android:background="@drawable/button_maybay2"
-                        android:text="Bay từ TP.HCM"
+                        android:text="TP.HCM"
                         android:textColor="#0063F8"
-                        android:textStyle="bold"></Button>
+                        android:textStyle="bold">
+
+                    </Button>
 
                     <Button
                         android:id="@+id/btnDN"
                         android:layout_width="120dp"
                         android:layout_height="40dp"
                         android:background="@drawable/button_maybay2"
-                        android:text="Bay từ Đà Nẵng"
+                        android:text="Đà Nẵng"
                         android:textColor="#0063F8"
-                        android:textStyle="bold"></Button>
+                        android:textStyle="bold">
+
+                    </Button>
                 </LinearLayout>
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/rcv_category"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginBottom="10dp">
 
                 </androidx.recyclerview.widget.RecyclerView>
@@ -444,7 +472,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="40dp"
+                        android:layout_marginLeft="25dp"
                         android:layout_marginRight="20dp"
                         android:background="@drawable/plane_flight">
 
@@ -454,6 +482,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Bay quốc tế tiết kiệm !"
+                        android:textColor="#3F51B5"
                         android:textSize="28dp"
                         android:textStyle="bold"></TextView>
                 </LinearLayout>
@@ -498,31 +527,31 @@
                     android:id="@+id/rcv_category1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginBottom="10dp">
 
                 </androidx.recyclerview.widget.RecyclerView>
 
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <ImageView
-                    android:layout_width="180dp"
-                    android:layout_height="120dp"
-                    android:background="@drawable/view7"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp">
-                </ImageView>
-                <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="120dp"
-                    android:background="@drawable/view8"
-                    >
-                </ImageView>
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+<!--                <ImageView-->
+<!--                    android:layout_width="180dp"-->
+<!--                    android:layout_height="120dp"-->
+<!--                    android:background="@drawable/view7"-->
+<!--                    android:layout_marginLeft="5dp"-->
+<!--                    android:layout_marginRight="5dp">-->
+<!--                </ImageView>-->
+<!--                <ImageView-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_height="120dp"-->
+<!--                    android:background="@drawable/view8"-->
+<!--                    >-->
+<!--                </ImageView>-->
 
-            </LinearLayout>
+<!--            </LinearLayout>-->
         </LinearLayout>
     </ScrollView>
     <LinearLayout

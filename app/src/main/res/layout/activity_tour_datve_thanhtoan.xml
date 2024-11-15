@@ -165,6 +165,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:paddingBottom="5dp"
+                            android:textColor="@color/black"
                             android:text="Vé Công viên nước The Amazing Bay"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -173,6 +174,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:paddingBottom="5dp"
+                            android:textColor="@color/black"
                             android:text="Ngày tham quan: 4 tháng 10 2024"
                             android:textSize="11sp" />
                     </LinearLayout>
@@ -217,6 +219,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="10dp"
+                            android:textColor="@color/black"
                             android:text="Thanh toán trong vòng"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -259,6 +262,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:textColor="@color/black"
                             android:text="Phương thức thanh toán"
                             android:textSize="14sp"
                             android:textStyle="bold" />
@@ -300,6 +304,7 @@
                                 android:layout_height="wrap_content"
                                 android:paddingBottom="5dp"
                                 android:text="Momo"
+                                android:textColor="@color/black"
                                 android:textSize="14sp"
                                 android:textStyle="bold" />
                         </LinearLayout>

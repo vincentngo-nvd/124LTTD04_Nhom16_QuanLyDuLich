@@ -48,6 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
+                android:textColor="@color/black"
                 android:text="Khách sạn Mường Thanh Luxury Nha Trang"
                 android:textSize="20dp"
                 android:textStyle="bold">
@@ -59,6 +60,7 @@
                 android:layout_height="wrap_content"
                 android:padding="5dp"
                 android:text="Phòng đôi Deluxe"
+                android:textColor="@color/black"
                 android:textSize="17dp"
                 android:textStyle="bold">
             </TextView>
@@ -68,6 +70,7 @@
                 android:layout_height="wrap_content"
                 android:alpha="0.5"
                 android:padding="2dp"
+                android:textColor="@color/black"
                 android:text="1 phòng"
                 android:textSize="15dp"
                 android:textStyle="bold"
@@ -80,6 +83,7 @@
                 android:alpha="0.5"
                 android:padding="2dp"
                 android:text="3 người"
+                android:textColor="@color/black"
                 android:textSize="15dp"
                 android:textStyle="bold"
                 android:layout_marginLeft="10dp">
@@ -91,6 +95,7 @@
                 android:alpha="0.5"
                 android:padding="2dp"
                 android:text="Ngày đặt phòng : 10/10/2024"
+                android:textColor="@color/black"
                 android:textSize="15dp"
                 android:textStyle="bold"
                 android:layout_marginLeft="10dp">
@@ -103,6 +108,7 @@
                 android:alpha="0.5"
                 android:padding="2dp"
                 android:text="Ngày trả phòng : 11/10/2024"
+                android:textColor="@color/black"
                 android:textSize="15dp"
                 android:textStyle="bold"
                 android:layout_marginLeft="10dp">
@@ -128,6 +134,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
                     android:text="Thanh toán trong vòng :">
 
                 </TextView>
@@ -157,6 +164,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="Phương thức thanh toán"
+            android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold">
         </TextView>
@@ -182,6 +190,7 @@
                 android:layout_marginLeft="10dp"
                 android:text="Momo"
                 android:textSize="20dp"
+                android:textColor="@color/black"
                 android:textStyle="bold"></TextView>
         </LinearLayout>
     </LinearLayout>
@@ -198,7 +207,10 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="Tổng giá tiền"
-            android:textSize="17dp"></TextView>
+            android:textColor="@color/black"
+            android:textSize="17dp">
+
+        </TextView>
 
         <View
             android:layout_width="match_parent"
@@ -223,6 +235,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:backgroundTint="#F96D0E"
+            android:textColor="@color/white"
             android:text="Thanh toán &amp; Hiện mã QR"
             android:layout_margin="5dp"
             >
