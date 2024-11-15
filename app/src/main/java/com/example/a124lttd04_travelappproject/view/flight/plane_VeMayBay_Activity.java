@@ -26,6 +26,7 @@ import com.example.a124lttd04_travelappproject.model.flight.plane_Category_Model
 import com.example.a124lttd04_travelappproject.adapter.flight.plane_Category_Adapter;
 import com.example.a124lttd04_travelappproject.model.flight.plane_CategoryQuocte_Model;
 import com.example.a124lttd04_travelappproject.adapter.flight.plane_CategoryQuocTe_Adapter;
+import com.example.a124lttd04_travelappproject.view.hotel.Taikhoan;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHome_Activity;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHotel_Activity;
 import com.example.a124lttd04_travelappproject.view.tour.tour_Tour_Activity;
@@ -85,7 +86,7 @@ public class plane_VeMayBay_Activity extends AppCompatActivity {
                 }
 
                 else if (item.getItemId() == R.id.action_tour) {
-                    Intent intent = new Intent(plane_VeMayBay_Activity.this, tour_Tour_Activity.class);
+                    Intent intent = new Intent(plane_VeMayBay_Activity.this, Taikhoan.class);
                     startActivity(intent);
                     return true;
                 }

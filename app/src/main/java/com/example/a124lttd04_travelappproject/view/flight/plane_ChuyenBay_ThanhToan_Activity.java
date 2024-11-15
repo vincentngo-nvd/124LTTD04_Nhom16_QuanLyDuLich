@@ -15,6 +15,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.a124lttd04_travelappproject.R;
+import com.example.a124lttd04_travelappproject.view.hotel.Taikhoan;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHome_Activity;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHotel_Activity;
 import com.example.a124lttd04_travelappproject.view.tour.tour_Tour_Activity;
@@ -23,6 +24,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class plane_ChuyenBay_ThanhToan_Activity extends AppCompatActivity {
     Button Thoat;
     private TextView timerTextView;
+    private TextView voucher;
     private CountDownTimer countDownTimer;
 
     @Override
@@ -55,7 +57,7 @@ public class plane_ChuyenBay_ThanhToan_Activity extends AppCompatActivity {
                 }
 
                 else if (item.getItemId() == R.id.action_tour) {
-                    Intent intent = new Intent(plane_ChuyenBay_ThanhToan_Activity.this, tour_Tour_Activity.class);
+                    Intent intent = new Intent(plane_ChuyenBay_ThanhToan_Activity.this, Taikhoan.class);
                     startActivity(intent);
                     return true;
                 }
@@ -64,6 +66,14 @@ public class plane_ChuyenBay_ThanhToan_Activity extends AppCompatActivity {
         });
 
         Thoat=findViewById(R.id.thoat);
+        voucher=findViewById(R.id.voucher);
+        voucher.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent m = new Intent(plane_ChuyenBay_ThanhToan_Activity.this, plane_Voucher.class); // Kiểm tra lớp đích
+                startActivity(m);
+            }
+        });
         // Khởi tạo TextView
         timerTextView = findViewById(R.id.timerTextView); // Đảm bảo ID này đúng với layout của bạn
         startTimer(180000); // Bắt đầu đếm ngược 180 giây

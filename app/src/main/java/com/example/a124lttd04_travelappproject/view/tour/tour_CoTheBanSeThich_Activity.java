@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.a124lttd04_travelappproject.R;
 import com.example.a124lttd04_travelappproject.view.flight.plane_VeMayBay_Activity;
+import com.example.a124lttd04_travelappproject.view.hotel.Taikhoan;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHome_Activity;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHotel_Activity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -24,8 +25,6 @@ public class tour_CoTheBanSeThich_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_cothebansethich);
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
-
-        bottomNavigationView.setSelectedItemId(R.id.action_tour);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -45,7 +44,7 @@ public class tour_CoTheBanSeThich_Activity extends AppCompatActivity {
                 }
 
                 else if (item.getItemId() == R.id.action_tour) {
-                    Intent intent = new Intent(tour_CoTheBanSeThich_Activity.this, tour_Tour_Activity.class);
+                    Intent intent = new Intent(tour_CoTheBanSeThich_Activity.this, Taikhoan.class);
                     startActivity(intent);
                     return true;
                 }

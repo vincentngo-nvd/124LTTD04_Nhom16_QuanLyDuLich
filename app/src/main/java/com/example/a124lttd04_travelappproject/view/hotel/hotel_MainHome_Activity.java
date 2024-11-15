@@ -129,6 +129,7 @@ public class hotel_MainHome_Activity extends AppCompatActivity {
     private void setupClickListeners() {
         LinearLayout tourPage = findViewById(R.id.tour_page);
         LinearLayout planePage = findViewById(R.id.plane_page);
+        ImageView userAccount = findViewById(R.id.user);
 
         planePage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -143,6 +144,13 @@ public class hotel_MainHome_Activity extends AppCompatActivity {
                 openTourPageActivity();
             }
         });
+
+        userAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openUserAccountActivity();
+            }
+        });
     }
 
     private void openPlanePageActivity() {
@@ -153,6 +161,11 @@ public class hotel_MainHome_Activity extends AppCompatActivity {
 
     private void openTourPageActivity() {
         Intent intent = new Intent(hotel_MainHome_Activity.this, tour_Tour_Activity.class);
+        startActivity(intent);
+    }
+
+    private void openUserAccountActivity() {
+        Intent intent = new Intent(hotel_MainHome_Activity.this, Taikhoan.class);
         startActivity(intent);
     }
 }

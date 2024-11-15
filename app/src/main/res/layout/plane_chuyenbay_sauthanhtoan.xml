@@ -120,9 +120,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="10dp"
+                            android:textColor="@color/black"
                             android:text="Thanh toán trong vòng"
                             android:textSize="18sp"
-                            android:textColor="@color/black"
                             android:textStyle="bold" />
 
                         <TextView
@@ -146,8 +146,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Gift Voucher"
-                            android:textSize="20dp"
                             android:textColor="#3F51B5"
+                            android:textSize="20dp"
                             android:textStyle="bold"
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="10dp">
@@ -196,7 +196,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
+                            android:layout_marginLeft="18dp"
                             android:text="Bạn có 2 vourcher khả dụng"
                             android:textSize="18dp"
                             android:textColor="#FF5722">
@@ -290,15 +290,13 @@
                                 android:layout_height="wrap_content"
                                 android:text="Tổng giá tiền :"
                                 android:textColor="@color/black"
-                                android:textSize="20dp">
-
-                            </TextView>
+                                android:textSize="20dp"></TextView>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="30dp"
-                                android:text="1.708.651 VNĐ"
+                                android:text="1.508.651 VNĐ"
                                 android:textColor="#FB0000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"></TextView>

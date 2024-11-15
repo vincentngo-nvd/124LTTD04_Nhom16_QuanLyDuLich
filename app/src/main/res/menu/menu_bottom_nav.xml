@@ -20,8 +20,8 @@
     </item>
     <item
         android:id="@+id/action_tour"
-        android:title="tour"
-        android:icon="@drawable/ic_tour"
+        android:title="account"
+        android:icon="@drawable/ic_account_circle"
         >
     </item>
 </menu>

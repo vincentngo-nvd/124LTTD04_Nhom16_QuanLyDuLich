@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/login"
-    tools:context=".plane_Vemaybay">
+    tools:context=".view.flight.plane_VeMayBay_Activity">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -178,13 +178,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Design by Nhom 16"
+            android:text="                  Design by Group 16\nNguyễn Đăng Chiến: 22115053122306\nNguyễn Văn Công    : 22115053122307\nNgô Văn Dương         : 22115053122312"
             android:textColor="@color/white"
+            android:textStyle="bold"
             android:layout_gravity="bottom"
-            android:layout_marginLeft="140dp"
-            android:layout_marginBottom="15dp"
-            >
-
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="15dp">
         </TextView>
     </FrameLayout>
 

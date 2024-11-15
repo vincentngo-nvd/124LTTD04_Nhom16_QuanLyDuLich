@@ -23,6 +23,7 @@ import com.example.a124lttd04_travelappproject.R;
 import com.example.a124lttd04_travelappproject.adapter.tour.tour_Horizontal_Adapter;
 import com.example.a124lttd04_travelappproject.model.tour.tour_City_Model;
 import com.example.a124lttd04_travelappproject.view.flight.plane_VeMayBay_Activity;
+import com.example.a124lttd04_travelappproject.view.hotel.Taikhoan;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHome_Activity;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHotel_Activity;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainRoom_Activity;
@@ -50,9 +51,6 @@ public class tour_Tour_Activity extends AppCompatActivity {
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
-        // Đặt mục action_hotel là mặc định
-        bottomNavigationView.setSelectedItemId(R.id.action_tour);
-
         // Xử lý sự kiện nhấn trên từng mục
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -72,7 +70,7 @@ public class tour_Tour_Activity extends AppCompatActivity {
                 }
 
                 else if (item.getItemId() == R.id.action_tour) {
-                    Intent intent = new Intent(tour_Tour_Activity.this, tour_Tour_Activity.class);
+                    Intent intent = new Intent(tour_Tour_Activity.this, Taikhoan.class);
                     startActivity(intent);
                     return true;
                 }

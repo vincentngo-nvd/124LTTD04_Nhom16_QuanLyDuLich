@@ -271,7 +271,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Mã giảm giá"
+                            android:text="TCBDOMBAY"
                             android:textSize="16dp"
                             android:layout_gravity="center"
                             android:layout_marginLeft="10dp"
@@ -370,9 +370,9 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingBottom="5dp"
-                                android:textColor="@color/black"
                                 android:text="Momo"
                                 android:textSize="14sp"
+                                android:textColor="@color/black"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -405,15 +405,15 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:paddingBottom="5dp"
-                            android:textColor="@color/black"
                             android:text="Tổng giá tiền"
+                            android:textColor="#000000"
                             android:textSize="14sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="5dp"
-                            android:text="465.000đ"
+                            android:text="240.000đ"
                             android:textColor="#FF0000"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -474,7 +474,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="465.000đ"
+                            android:text="240.000đ"
                             android:textColor="#000000"
                             android:textSize="13sp"
                             android:textStyle="bold"/>

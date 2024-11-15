@@ -15,6 +15,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.a124lttd04_travelappproject.R;
+import com.example.a124lttd04_travelappproject.view.hotel.Taikhoan;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHome_Activity;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHotel_Activity;
 import com.example.a124lttd04_travelappproject.view.tour.tour_CoTheBanSeThich_Activity;
@@ -65,7 +66,7 @@ public class plane_XacNhanGiaChuyenBay_Activity extends AppCompatActivity {
                 }
 
                 else if (item.getItemId() == R.id.action_tour) {
-                    Intent intent = new Intent(plane_XacNhanGiaChuyenBay_Activity.this, tour_Tour_Activity.class);
+                    Intent intent = new Intent(plane_XacNhanGiaChuyenBay_Activity.this, Taikhoan.class);
                     startActivity(intent);
                     return true;
                 }

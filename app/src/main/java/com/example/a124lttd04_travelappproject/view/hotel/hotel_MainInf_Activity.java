@@ -81,7 +81,7 @@ public class hotel_MainInf_Activity extends AppCompatActivity {
                 }
 
                 else if (item.getItemId() == R.id.action_tour) {
-                    Intent intent = new Intent(hotel_MainInf_Activity.this, tour_Tour_Activity.class);
+                    Intent intent = new Intent(hotel_MainInf_Activity.this, Taikhoan.class);
                     startActivity(intent);
                     return true;
                 }

@@ -21,8 +21,11 @@
         <!-- hotel -->
         <activity android:name=".view.hotel.hotel_MainActivityPay_Activity" android:exported="false" />
         <activity android:name=".view.hotel.hotel_MainInf_Activity" />
+        <activity android:name=".view.hotel.hotel_MainActivityAfterPay_ACtivity" />
+        <activity android:name=".view.hotel.hotel_Voucher" />
         <activity android:name=".view.hotel.hotel_MainRoom_Activity" />
         <activity android:name=".view.hotel.hotel_MainHome_Activity" />
+        <activity android:name=".view.hotel.Taikhoan" />
         <activity android:name=".view.hotel.hotel_MainHotel_Activity" android:exported="false" />
 
         <!-- tour -->
@@ -30,6 +33,8 @@
         <activity android:name=".view.tour.tour_CoTheBanSeThich_Activity" />
         <activity android:name=".view.tour.tour_ChiTiet_Activity" />
         <activity android:name=".view.tour.tour_DatVe_Activity" />
+        <activity android:name=".view.tour.tour_Voucher" />
+        <activity android:name=".view.tour.tour_DatVe_SauThanhToan_Activity" />
         <activity android:name=".view.tour.tour_DatVe_DatCho_Activity" />
         <activity android:name=".view.tour.tour_DatVe_ClickDatNgayKhiChuaChonVe_Activity" />
         <activity android:name=".view.tour.tour_DatVe_ChonSoLuongVe_Activity" />
@@ -43,6 +48,8 @@
         <activity android:name=".view.flight.plane_ChuyenBay_ThanhToan_Activity" android:exported="true" />
         <activity android:name=".view.flight.plane_VeMayBay_Activity" android:exported="true" />
         <activity android:name=".view.flight.plane_LogIn_Activity" android:exported="true" />
+        <activity android:name=".view.flight.plane_ChuyenBay_SauThanhToan" android:exported="true" />
+        <activity android:name=".view.flight.plane_Voucher" android:exported="true" />
 
     </application>
 </manifest>

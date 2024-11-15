@@ -7,18 +7,17 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.a124lttd04_travelappproject.R;
-import com.example.a124lttd04_travelappproject.view.flight.plane_ChuyenBay_ThanhToan_Activity;
-import com.example.a124lttd04_travelappproject.view.flight.plane_Voucher;
 
-public class tour_DatVe_ThanhToan_Activity extends AppCompatActivity {
-    TextView Voucher;
+public class tour_DatVe_SauThanhToan_Activity extends AppCompatActivity {
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tour_datve_thanhtoan);
+        setContentView(R.layout.activity_tour_datve_sauthanhtoan);
 
         TextView textView = findViewById(R.id.textView_Contact);
 
@@ -27,18 +26,8 @@ public class tour_DatVe_ThanhToan_Activity extends AppCompatActivity {
 
         // Bắt sự kiện click vào từng layout
         setupClickListeners();
-
-        Voucher=findViewById(R.id.voucher);
-        Voucher.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent m = new Intent(tour_DatVe_ThanhToan_Activity.this, tour_Voucher.class); // Kiểm tra lớp đích
-                startActivity(m);
-            }
-        });
     }
 
-    // Phương thức để set sự kiện click cho các layout
     private void setupClickListeners() {
         ImageView backButton = findViewById(R.id.back_button);
 
@@ -51,11 +40,8 @@ public class tour_DatVe_ThanhToan_Activity extends AppCompatActivity {
             }
         });
     }
-
-    // Phương thức để mở giao diện activity_tour_chitiet.xml
     private void openDatChoActivity() {
-        Intent intent = new Intent(tour_DatVe_ThanhToan_Activity.this, tour_DatVe_DatCho_Activity.class);
+        Intent intent = new Intent(tour_DatVe_SauThanhToan_Activity.this, tour_DatVe_DatCho_Activity.class);
         startActivity(intent);
     }
-
 }

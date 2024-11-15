@@ -77,7 +77,7 @@ public class hotel_MainHotel_Activity extends AppCompatActivity {
 
                 else if (item.getItemId() == R.id.action_tour) {
                     // Chuyển đến SettingActivity (nếu có)
-                    Intent settingIntent = new Intent(hotel_MainHotel_Activity.this, tour_Tour_Activity.class);
+                    Intent settingIntent = new Intent(hotel_MainHotel_Activity.this, Taikhoan.class);
                     startActivity(settingIntent);
                     return true;
                 }
