@@ -16,6 +16,7 @@ import androidx.core.view.WindowInsetsCompat;
 import com.example.a124lttd04_travelappproject.R;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHome_Activity;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHotel_Activity;
+import com.example.a124lttd04_travelappproject.view.tour.tour_Tour_Activity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class plane_TimKiemChuyenBay_Activity extends AppCompatActivity {
@@ -52,11 +53,11 @@ public class plane_TimKiemChuyenBay_Activity extends AppCompatActivity {
                     return true;
                 }
 
-//                else if (item.getItemId() == R.id.action_setting) {
-//                    Intent intent = new Intent(hotel_MainInf_Activity.this, SettingActivity.class);
-//                    startActivity(intent);
-//                    return true;
-//                }
+                else if (item.getItemId() == R.id.action_tour) {
+                    Intent intent = new Intent(plane_TimKiemChuyenBay_Activity.this, tour_Tour_Activity.class);
+                    startActivity(intent);
+                    return true;
+                }
                 return false;
             }
         });

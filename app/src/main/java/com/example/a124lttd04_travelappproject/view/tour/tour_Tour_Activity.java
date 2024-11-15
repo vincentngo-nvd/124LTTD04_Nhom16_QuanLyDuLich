@@ -51,7 +51,7 @@ public class tour_Tour_Activity extends AppCompatActivity {
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
         // Đặt mục action_hotel là mặc định
-        bottomNavigationView.setSelectedItemId(R.id.action_hotel);
+        bottomNavigationView.setSelectedItemId(R.id.action_tour);
 
         // Xử lý sự kiện nhấn trên từng mục
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -71,11 +71,11 @@ public class tour_Tour_Activity extends AppCompatActivity {
                     return true;
                 }
 
-//                else if (item.getItemId() == R.id.action_setting) {
-//                    Intent intent = new Intent(hotel_MainInf_Activity.this, SettingActivity.class);
-//                    startActivity(intent);
-//                    return true;
-//                }
+                else if (item.getItemId() == R.id.action_tour) {
+                    Intent intent = new Intent(tour_Tour_Activity.this, tour_Tour_Activity.class);
+                    startActivity(intent);
+                    return true;
+                }
                 return false;
             }
         });

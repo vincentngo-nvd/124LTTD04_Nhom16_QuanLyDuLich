@@ -19,9 +19,9 @@
         >
     </item>
     <item
-        android:id="@+id/action_setting"
-        android:title="setting"
-        android:icon="@drawable/settings"
+        android:id="@+id/action_tour"
+        android:title="tour"
+        android:icon="@drawable/ic_tour"
         >
     </item>
 </menu>

@@ -27,6 +27,7 @@ import com.example.a124lttd04_travelappproject.adapter.hotel.hotel_Category_Adap
 import com.example.a124lttd04_travelappproject.adapter.hotel.hotel_ChooseHotel_Hotel_Adapter;
 import com.example.a124lttd04_travelappproject.model.hotel.hotel_ChooseHotel_Hotel_Model;
 import com.example.a124lttd04_travelappproject.view.flight.plane_VeMayBay_Activity;
+import com.example.a124lttd04_travelappproject.view.tour.tour_Tour_Activity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class hotel_MainHotel_Activity extends AppCompatActivity {
@@ -74,12 +75,12 @@ public class hotel_MainHotel_Activity extends AppCompatActivity {
                     return true;
                 }
 
-//                else if (item.getItemId() == R.id.action_setting) {
-//                    // Chuyển đến SettingActivity (nếu có)
-//                    Intent settingIntent = new Intent(hotel_MainHotel_Activity.this, SettingActivity.class);
-//                    startActivity(settingIntent);
-//                    return true;
-//                }
+                else if (item.getItemId() == R.id.action_tour) {
+                    // Chuyển đến SettingActivity (nếu có)
+                    Intent settingIntent = new Intent(hotel_MainHotel_Activity.this, tour_Tour_Activity.class);
+                    startActivity(settingIntent);
+                    return true;
+                }
                 return false;
             }
         });

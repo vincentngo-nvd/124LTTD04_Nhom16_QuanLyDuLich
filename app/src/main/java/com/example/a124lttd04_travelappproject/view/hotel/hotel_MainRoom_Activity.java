@@ -24,6 +24,7 @@ import com.example.a124lttd04_travelappproject.adapter.hotel.hotel_Category_Adap
 import com.example.a124lttd04_travelappproject.model.hotel.hotel_CgrChooseRoom_Room_Model;
 import com.example.a124lttd04_travelappproject.adapter.hotel.hotel_CgrChooseRoomAdapter_Room;
 import com.example.a124lttd04_travelappproject.view.flight.plane_VeMayBay_Activity;
+import com.example.a124lttd04_travelappproject.view.tour.tour_Tour_Activity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class hotel_MainRoom_Activity extends AppCompatActivity {
@@ -68,11 +69,11 @@ public class hotel_MainRoom_Activity extends AppCompatActivity {
                     return true;
                 }
 
-//                else if (item.getItemId() == R.id.action_setting) {
-//                    Intent intent = new Intent(hotel_MainInf_Activity.this, SettingActivity.class);
-//                    startActivity(intent);
-//                    return true;
-//                }
+                else if (item.getItemId() == R.id.action_tour) {
+                    Intent intent = new Intent(hotel_MainRoom_Activity.this, tour_Tour_Activity.class);
+                    startActivity(intent);
+                    return true;
+                }
                 return false;
             }
         });

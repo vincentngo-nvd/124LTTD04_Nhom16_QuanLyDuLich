@@ -25,7 +25,7 @@ public class tour_CoTheBanSeThich_Activity extends AppCompatActivity {
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
-        bottomNavigationView.setSelectedItemId(R.id.action_hotel);
+        bottomNavigationView.setSelectedItemId(R.id.action_tour);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -44,11 +44,11 @@ public class tour_CoTheBanSeThich_Activity extends AppCompatActivity {
                     return true;
                 }
 
-//                else if (item.getItemId() == R.id.action_setting) {
-//                    Intent intent = new Intent(hotel_MainInf_Activity.this, SettingActivity.class);
-//                    startActivity(intent);
-//                    return true;
-//                }
+                else if (item.getItemId() == R.id.action_tour) {
+                    Intent intent = new Intent(tour_CoTheBanSeThich_Activity.this, tour_Tour_Activity.class);
+                    startActivity(intent);
+                    return true;
+                }
                 return false;
             }
         });
