@@ -25,10 +25,8 @@ public class tour_CoTheBanSeThich_Activity extends AppCompatActivity {
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
-        // Đặt mục action_hotel là mặc định
         bottomNavigationView.setSelectedItemId(R.id.action_hotel);
 
-        // Xử lý sự kiện nhấn trên từng mục
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem item) {
