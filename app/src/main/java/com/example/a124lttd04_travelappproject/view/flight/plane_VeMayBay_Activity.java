@@ -7,6 +7,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -29,6 +30,7 @@ import com.example.a124lttd04_travelappproject.adapter.flight.plane_CategoryQuoc
 import com.example.a124lttd04_travelappproject.view.hotel.Taikhoan;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHome_Activity;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHotel_Activity;
+import com.example.a124lttd04_travelappproject.view.tour.tour_ThanhToanThanhCong_Activity;
 import com.example.a124lttd04_travelappproject.view.tour.tour_Tour_Activity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -48,7 +50,6 @@ public class plane_VeMayBay_Activity extends AppCompatActivity {
     Button btnDNAdn;
     Button noidi;
     Button noiden;
-    Button tk;
 
 
     @Override
@@ -97,7 +98,6 @@ public class plane_VeMayBay_Activity extends AppCompatActivity {
         rcvCategory=findViewById(R.id.rcv_category);
         categoryAdapter = new plane_Category_Adapter(this);
 
-        tk=findViewById(R.id.timkiem);
         btnn1=findViewById(R.id.btn1);
         btnn2=findViewById(R.id.btn2);
         btnhn=findViewById(R.id.btnHN);
@@ -109,13 +109,7 @@ public class plane_VeMayBay_Activity extends AppCompatActivity {
         noidi=findViewById(R.id.noidi);
         noiden=findViewById(R.id.noiden);
 
-        tk.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent m = new Intent(plane_VeMayBay_Activity.this, plane_TimKiemChuyenBay_Activity.class); // Kiểm tra lớp đích
-                startActivity(m);
-            }
-        });
+
         noiden.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -240,12 +234,26 @@ public class plane_VeMayBay_Activity extends AppCompatActivity {
     private void setupClickListeners() {
         ImageButton backButton = findViewById(R.id.back_button);
 
+        Button tk = findViewById(R.id.timkiem);
+
+        tk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openTimKiemChuyenBayActivity();
+            }
+        });
+
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openHomePageActivity();
             }
         });
+    }
+
+    private void openTimKiemChuyenBayActivity() {
+        Intent intent = new Intent(plane_VeMayBay_Activity.this, plane_TimKiemChuyenBay_Activity.class);
+        startActivity(intent);
     }
 
     private void openHomePageActivity() {

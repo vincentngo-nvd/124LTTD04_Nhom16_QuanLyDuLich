@@ -31,6 +31,7 @@
         <!-- tour -->
         <activity android:name=".view.tour.tour_Tour_Activity" android:exported="true" />
         <activity android:name=".view.tour.tour_CoTheBanSeThich_Activity" />
+        <activity android:name=".view.tour.tour_ThanhToanThanhCong_Activity" />
         <activity android:name=".view.tour.tour_ChiTiet_Activity" />
         <activity android:name=".view.tour.tour_DatVe_Activity" />
         <activity android:name=".view.tour.tour_Voucher" />

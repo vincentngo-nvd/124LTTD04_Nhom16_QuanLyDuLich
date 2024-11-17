@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.Nullable;
@@ -21,7 +22,7 @@ import com.example.a124lttd04_travelappproject.view.tour.tour_Tour_Activity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class plane_TimKiemChuyenBay_Activity extends AppCompatActivity {
-    Button chonchuyenbay;
+    LinearLayout chonchuyenbay;
     Button Exit;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

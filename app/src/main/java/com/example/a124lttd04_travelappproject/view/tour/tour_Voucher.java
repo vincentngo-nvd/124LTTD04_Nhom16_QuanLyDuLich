@@ -44,7 +44,7 @@ public class tour_Voucher extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(check==true){
-                    tongtien.setText("240.000 VND (TCBDOMBAY)");
+                    tongtien.setText("265.000 VND (TCBDOMBAY)");
                     check=false;
                 }
                 else {
@@ -56,7 +56,7 @@ public class tour_Voucher extends AppCompatActivity {
         xacnhan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent m = new Intent(tour_Voucher.this, tour_DatVe_SauThanhToan_Activity.class); // Kiểm tra lớp đích
+                Intent m = new Intent(tour_Voucher.this, tour_DatVe_SauThanhToan_Activity.class);
                 startActivity(m);
             }
         });

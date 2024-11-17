@@ -6,6 +6,7 @@ import android.os.CountDownTimer;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.Nullable;
@@ -18,6 +19,7 @@ import com.example.a124lttd04_travelappproject.R;
 import com.example.a124lttd04_travelappproject.view.hotel.Taikhoan;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHome_Activity;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHotel_Activity;
+import com.example.a124lttd04_travelappproject.view.tour.tour_ThanhToanThanhCong_Activity;
 import com.example.a124lttd04_travelappproject.view.tour.tour_Tour_Activity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -26,6 +28,7 @@ public class plane_ChuyenBay_ThanhToan_Activity extends AppCompatActivity {
     private TextView timerTextView;
     private TextView voucher;
     private CountDownTimer countDownTimer;
+    LinearLayout thanhToanThanhCong;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -35,10 +38,8 @@ public class plane_ChuyenBay_ThanhToan_Activity extends AppCompatActivity {
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_nav);
 
-        // Đặt mục action_hotel là mặc định
         bottomNavigationView.setSelectedItemId(R.id.action_plane);
 
-        // Xử lý sự kiện nhấn trên từng mục
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem item) {
@@ -65,15 +66,26 @@ public class plane_ChuyenBay_ThanhToan_Activity extends AppCompatActivity {
             }
         });
 
-        Thoat=findViewById(R.id.thoat);
-        voucher=findViewById(R.id.voucher);
+        Thoat = findViewById(R.id.thoat);
+        voucher = findViewById(R.id.voucher);
+        thanhToanThanhCong = findViewById(R.id.thanhtoanthanhcong);
+
         voucher.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent m = new Intent(plane_ChuyenBay_ThanhToan_Activity.this, plane_Voucher.class); // Kiểm tra lớp đích
+                Intent m = new Intent(plane_ChuyenBay_ThanhToan_Activity.this, plane_Voucher.class);
                 startActivity(m);
             }
         });
+
+        thanhToanThanhCong.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent m = new Intent(plane_ChuyenBay_ThanhToan_Activity.this, tour_ThanhToanThanhCong_Activity.class);
+                startActivity(m);
+            }
+        });
+
         // Khởi tạo TextView
         timerTextView = findViewById(R.id.timerTextView); // Đảm bảo ID này đúng với layout của bạn
         startTimer(180000); // Bắt đầu đếm ngược 180 giây
@@ -84,6 +96,7 @@ public class plane_ChuyenBay_ThanhToan_Activity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
         Thoat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -92,6 +105,7 @@ public class plane_ChuyenBay_ThanhToan_Activity extends AppCompatActivity {
             }
         });
     }
+
     private void startTimer(long millis) {
         countDownTimer = new CountDownTimer(millis, 1000) { // mỗi giây
             @Override

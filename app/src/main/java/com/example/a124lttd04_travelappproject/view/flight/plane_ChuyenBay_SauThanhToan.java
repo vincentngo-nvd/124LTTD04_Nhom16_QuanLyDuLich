@@ -6,6 +6,7 @@ import android.os.CountDownTimer;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -17,8 +18,10 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.a124lttd04_travelappproject.R;
 import com.example.a124lttd04_travelappproject.view.hotel.Taikhoan;
+import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainActivityAfterPay_ACtivity;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHome_Activity;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHotel_Activity;
+import com.example.a124lttd04_travelappproject.view.tour.tour_ThanhToanThanhCong_Activity;
 import com.example.a124lttd04_travelappproject.view.tour.tour_Tour_Activity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -27,6 +30,8 @@ public class plane_ChuyenBay_SauThanhToan extends AppCompatActivity {
     private TextView timerTextView;
     private TextView voucher;
     private CountDownTimer countDownTimer;
+    LinearLayout thanhToanThanhCong;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -84,6 +89,15 @@ public class plane_ChuyenBay_SauThanhToan extends AppCompatActivity {
             public void onClick(View v) {
                 Intent m = new Intent(plane_ChuyenBay_SauThanhToan.this, plane_XacNhanGiaChuyenBay_Activity.class); // Kiểm tra lớp đích
                 startActivity(m);
+            }
+        });
+
+        thanhToanThanhCong = findViewById(R.id.thanhtoanthanhcong);
+        thanhToanThanhCong.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(plane_ChuyenBay_SauThanhToan.this, tour_ThanhToanThanhCong_Activity.class);
+                startActivity(intent);
             }
         });
     }

@@ -88,7 +88,7 @@
                     android:layout_height="wrap_content"
                     android:text="Lợi ích đi kèm"
                     android:background="@color/white"
-                    android:textColor="#918D8D">
+                    android:textColor="#FFFFFF">
 
                 </Button>
 
@@ -97,13 +97,14 @@
                     android:layout_height="wrap_content"
                     android:text="Đổi lịch bay"
                     android:background="@color/white"
-                    android:textColor="#918D8D">
+                    android:textColor="#FFFFFF">
                 </Button>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
+                android:background="@drawable/bottom_edge"
                 android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"
@@ -193,11 +194,10 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="450dp"
+                    android:layout_width="50dp"
+                    android:layout_height="460dp"
                     android:background="@drawable/line_chonchuyenbay"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="20dp">
+                    android:layout_gravity="center">
                 </LinearLayout>
 
                 <LinearLayout
@@ -228,7 +228,7 @@
                     <LinearLayout
                         android:layout_width="240dp"
                         android:layout_height="300dp"
-                        android:background="#ECE8E8"
+                        android:background="@drawable/border"
                         android:orientation="vertical"
                         android:layout_marginTop="15dp">
                         <LinearLayout

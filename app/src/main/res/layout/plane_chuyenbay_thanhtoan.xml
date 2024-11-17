@@ -168,6 +168,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="Mã giảm giá"
                                 android:textSize="16dp"
+                                android:layout_marginTop="3dp"
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="10dp"
                                 android:textColor="#5A5A5A">
@@ -177,6 +178,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Thêm"
+                                android:layout_marginTop="3dp"
                                 android:layout_gravity="center"
                                 android:textSize="20dp"
                                 android:textStyle="bold"
@@ -197,8 +199,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Bạn có 2 vourcher khả dụng"
-                            android:textSize="18dp"
+                            android:text="Bạn có 1 vourcher khả dụng"
+                            android:textSize="16dp"
                             android:textColor="#FF5722">
 
                         </TextView>
@@ -311,6 +313,7 @@
                             android:background="@drawable/line_chonchuyenbay2"></LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/thanhtoanthanhcong"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="15dp"

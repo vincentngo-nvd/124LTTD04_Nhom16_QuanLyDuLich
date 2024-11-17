@@ -23,9 +23,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hồ sơ của tôi"
+            android:textSize="20dp"
+            android:textStyle="bold"
             android:textColor="@color/black"
             android:layout_gravity="center"
-            android:layout_marginLeft="5dp">
+            android:layout_marginLeft="15dp">
 
         </TextView>
     </LinearLayout>
@@ -43,6 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
             android:padding="5dp">
 
             <ImageView
@@ -64,7 +67,7 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:src="@drawable/settings"
-                android:layout_marginLeft="230dp">
+                android:layout_marginLeft="210dp">
             </ImageView>
         </LinearLayout>
         <LinearLayout
@@ -209,6 +212,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Du khách &amp; Liên hệ"
+                    android:textAlignment="center"
                     android:textColor="@color/black"
                     android:layout_marginTop="2dp"
                     android:layout_gravity="center">
@@ -288,7 +292,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Chỉnh sửa"
-                    android:layout_marginLeft="150dp"
+                    android:layout_marginLeft="140dp"
                     android:textColor="#255BFB">
                 </TextView>
 
@@ -315,9 +319,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="-"
-                    android:textSize="20dp"
-                    android:layout_marginLeft="250dp">
+                    android:text="Nhóm 16"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="204dp">
 
                 </TextView>
             </LinearLayout>
@@ -342,9 +346,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="-"
-                    android:textSize="20dp"
-                    android:layout_marginLeft="270dp">
+                    android:text="Nam"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="254dp">
 
                 </TextView>
             </LinearLayout>
@@ -369,9 +373,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="-"
-                    android:textSize="20dp"
-                    android:layout_marginLeft="260dp">
+                    android:text="Tp. Đà Nẵng"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="190dp">
 
                 </TextView>
             </LinearLayout>

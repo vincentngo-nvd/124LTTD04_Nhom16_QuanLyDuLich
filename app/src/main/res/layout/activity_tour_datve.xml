@@ -331,7 +331,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="5dp"
-                                android:text="245.000đ"
+                                android:text="465.000đ"
                                 android:textColor="@android:color/holo_red_dark"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
@@ -509,7 +509,8 @@
             android:layout_height="wrap_content"
             android:background="@drawable/top_border"
             android:orientation="vertical"
-            android:padding="10dp">
+            android:padding="10dp"
+            android:layout_marginBottom="5dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -548,7 +549,7 @@
             <LinearLayout
                 android:id="@+id/first_product_datve"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="40dp"
                 android:background="@drawable/border"
                 android:backgroundTint="#2196F3"
                 android:gravity="center_vertical"
@@ -561,7 +562,7 @@
                     android:text="Đặt ngay"
                     android:textAlignment="center"
                     android:textColor="@color/white"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.text.Html;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,6 +16,8 @@ import com.example.a124lttd04_travelappproject.view.flight.plane_Voucher;
 
 public class tour_DatVe_ThanhToan_Activity extends AppCompatActivity {
     TextView Voucher;
+    LinearLayout thanhToanThanhCong;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +35,18 @@ public class tour_DatVe_ThanhToan_Activity extends AppCompatActivity {
         Voucher.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent m = new Intent(tour_DatVe_ThanhToan_Activity.this, tour_Voucher.class); // Kiểm tra lớp đích
+                Intent m = new Intent(tour_DatVe_ThanhToan_Activity.this, tour_Voucher.class);
+                startActivity(m);
+            }
+        });
+
+
+        thanhToanThanhCong = findViewById(R.id.thanhtoanthanhcong);
+
+        thanhToanThanhCong.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent m = new Intent(tour_DatVe_ThanhToan_Activity.this, tour_ThanhToanThanhCong_Activity.class);
                 startActivity(m);
             }
         });

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.text.Html;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -30,18 +31,30 @@ public class tour_DatVe_SauThanhToan_Activity extends AppCompatActivity {
 
     private void setupClickListeners() {
         ImageView backButton = findViewById(R.id.back_button);
+        LinearLayout thanhToanThanhCong = findViewById(R.id.thanhtoanthanhcong);
 
-        // Set the click listener for the ImageView
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Navigate to DatVe_DatCho_Activity
                 openDatChoActivity();
             }
         });
+
+        thanhToanThanhCong.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openThanhToanThanhCongActivity();
+            }
+        });
     }
+
     private void openDatChoActivity() {
         Intent intent = new Intent(tour_DatVe_SauThanhToan_Activity.this, tour_DatVe_DatCho_Activity.class);
+        startActivity(intent);
+    }
+
+    private void openThanhToanThanhCongActivity() {
+        Intent intent = new Intent(tour_DatVe_SauThanhToan_Activity.this, tour_ThanhToanThanhCong_Activity.class);
         startActivity(intent);
     }
 }

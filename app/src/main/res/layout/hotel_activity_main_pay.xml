@@ -167,7 +167,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Gift Voucher"
-                android:textSize="14sp"
+                android:textSize="20dp"
                 android:textColor="#3F51B5"
                 android:textStyle="bold"
                 android:layout_marginLeft="20dp"
@@ -188,6 +188,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Mã giảm giá"
+                    android:layout_marginTop="3dp"
                     android:textSize="16dp"
                     android:layout_gravity="center"
                     android:layout_marginLeft="10dp"
@@ -198,6 +199,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Thêm"
+                    android:layout_marginTop="3dp"
                     android:layout_gravity="center"
                     android:textSize="16dp"
                     android:textStyle="bold"
@@ -218,8 +220,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:text="Bạn có 4 vourcher khả dụng"
-                android:textSize="18dp"
+                android:text="Bạn có 1 vourcher khả dụng"
+                android:textSize="16dp"
                 android:textColor="#FF5722"
                 android:layout_marginBottom="5dp">
 
@@ -263,7 +265,7 @@
                     android:layout_marginLeft="10dp"
                     android:text="Momo"
                     android:textColor="@color/black"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
         </LinearLayout>
@@ -302,6 +304,7 @@
             </TextView>
 
             <Button
+                android:id="@+id/thanhtoanthanhcong"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

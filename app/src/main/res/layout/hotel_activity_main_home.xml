@@ -14,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:padding="5dp"
         android:gravity="start"
         android:orientation="horizontal">
 
@@ -36,7 +37,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/user"
             android:padding="20dp"
-            android:layout_marginRight="15dp">
+            android:layout_marginRight="5dp">
         </ImageView>
     </LinearLayout>
 
@@ -66,7 +67,7 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:background="@drawable/hotel_shape_menu"
-            android:weightSum="4">
+            android:weightSum="3">
 
             <LinearLayout
                 android:id="@+id/tour_page"
@@ -169,37 +170,37 @@
                 </TextView>
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
+<!--            <LinearLayout-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:orientation="vertical">-->
 
-                <ImageView
-                    android:id="@+id/ticket"
-                    android:layout_width="40sp"
-                    android:layout_height="40sp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/datve">
+<!--                <ImageView-->
+<!--                    android:id="@+id/ticket"-->
+<!--                    android:layout_width="40sp"-->
+<!--                    android:layout_height="40sp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/datve">-->
 
-                </ImageView>
+<!--                </ImageView>-->
 
-                <TextView
-                    android:id="@+id/txt_airlines_ticket"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="10sp"
-                    android:layout_marginBottom="20dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="sans-serif"
-                    android:text="Đặt vé"
-                    android:textSize="15sp"
-                    android:textStyle="bold">
+<!--                <TextView-->
+<!--                    android:id="@+id/txt_airlines_ticket"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginTop="10sp"-->
+<!--                    android:layout_marginBottom="20dp"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:fontFamily="sans-serif"-->
+<!--                    android:text="Đặt vé"-->
+<!--                    android:textSize="15sp"-->
+<!--                    android:textStyle="bold">-->
 
-                </TextView>
-            </LinearLayout>
+<!--                </TextView>-->
+<!--            </LinearLayout>-->
         </LinearLayout>
     </LinearLayout>
 
@@ -211,7 +212,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#14CCE4"
+            android:background="#2BDAF0"
             android:orientation="vertical">
 
             <LinearLayout

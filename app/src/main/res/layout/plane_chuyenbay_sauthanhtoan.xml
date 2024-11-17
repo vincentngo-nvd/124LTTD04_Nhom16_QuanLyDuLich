@@ -166,11 +166,12 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Mã giảm giá"
+                                android:text="TCBDOMBAY"
+                                android:layout_marginTop="3dp"
                                 android:textSize="16dp"
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="10dp"
-                                android:textColor="#5A5A5A">
+                                android:textColor="#000000">
                             </TextView>
                             <TextView
                                 android:id="@+id/voucher"
@@ -178,6 +179,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="Thêm"
                                 android:layout_gravity="center"
+                                android:layout_marginTop="3dp"
                                 android:textSize="20dp"
                                 android:textStyle="bold"
                                 android:textColor="#00CAFD"
@@ -197,8 +199,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="18dp"
-                            android:text="Bạn có 2 vourcher khả dụng"
-                            android:textSize="18dp"
+                            android:text="-200.000 VNĐ"
+                            android:textSize="16dp"
                             android:textColor="#FF5722">
 
                         </TextView>
@@ -309,6 +311,7 @@
                             android:background="@drawable/line_chonchuyenbay2"></LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/thanhtoanthanhcong"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="15dp"
