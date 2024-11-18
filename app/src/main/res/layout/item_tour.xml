@@ -26,7 +26,9 @@
             android:layout_height="wrap_content"
             android:text="Vé Công viên nước The Amazing Bay"
             android:textSize="16sp"
-            android:textStyle="bold"></TextView>
+            android:textStyle="bold">
+
+        </TextView>
 
         <TextView
             android:id="@+id/diaDiem_tv"
@@ -34,14 +36,18 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:text="Xperience Deals"
-            android:textColor="@android:color/holo_red_light"></TextView>
+            android:textColor="@android:color/holo_red_light">
+
+        </TextView>
 
         <TextView
             android:id="@+id/thoiGian_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="490.000đ"></TextView>
+            android:text="490.000đ">
+
+        </TextView>
 
         <TextView
             android:id="@+id/gia_tv"
@@ -49,9 +55,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:text="1.474.999đ"
-            android:textColor="@android:color/holo_red_dark"
+            android:textColor="#FF0000"
             android:textSize="16sp"
-            android:textStyle="bold"></TextView>
+            android:textStyle="bold">
+
+        </TextView>
 
     </LinearLayout>
 

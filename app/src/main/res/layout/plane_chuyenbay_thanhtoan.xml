@@ -42,7 +42,9 @@
                         android:text="Hoàn tất thanh toán của bạn"
                         android:textColor="@color/white"
                         android:textSize="22dp"
-                        android:textStyle="bold"></TextView>
+                        android:textStyle="bold">
+
+                    </TextView>
                 </LinearLayout>
 
                 <LinearLayout
@@ -70,10 +72,13 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="SGN --> HAN\n1 thg 10 2024"
+                            android:text="SGN - HAN\n1 thg 10 2024"
+                            android:textAlignment="center"
                             android:textColor="@color/black"
                             android:textSize="20dp"
-                            android:textStyle="bold"></TextView>
+                            android:textStyle="bold">
+
+                        </TextView>
                     </LinearLayout>
 
                     <LinearLayout
@@ -98,7 +103,9 @@
                         android:layout_marginLeft="60dp"
                         android:text="Bảo hiểm du lịch toàn diện"
                         android:textColor="#333232"
-                        android:textSize="18dp"></TextView>
+                        android:textSize="16dp">
+
+                    </TextView>
                 </LinearLayout>
 
                 <LinearLayout
@@ -199,7 +206,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Bạn có 1 vourcher khả dụng"
+                            android:text="Bạn có 1 voucher khả dụng"
                             android:textSize="16dp"
                             android:textColor="#FF5722">
 
@@ -290,9 +297,9 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Tổng giá tiền :"
+                                android:text="Tổng giá tiền:"
                                 android:textColor="@color/black"
-                                android:textSize="20dp">
+                                android:textSize="18dp">
 
                             </TextView>
 
@@ -303,14 +310,18 @@
                                 android:text="1.708.651 VNĐ"
                                 android:textColor="#FB0000"
                                 android:textSize="20dp"
-                                android:textStyle="bold"></TextView>
+                                android:textStyle="bold">
+
+                            </TextView>
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="360dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:background="@drawable/line_chonchuyenbay2"></LinearLayout>
+                            android:background="@drawable/line_chonchuyenbay2">
+
+                        </LinearLayout>
 
                         <LinearLayout
                             android:id="@+id/thanhtoanthanhcong"
@@ -318,7 +329,7 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="15dp"
                             android:background="@drawable/border"
-                            android:backgroundTint="#FF9600"
+                            android:backgroundTint="#1790F0"
                             android:gravity="center_vertical"
                             android:padding="10dp">
 
@@ -328,7 +339,7 @@
                                 android:text="Thanh toán &amp; Hiển thị mã QR"
                                 android:textAlignment="center"
                                 android:textColor="@color/white"
-                                android:textSize="16sp"
+                                android:textSize="16dp"
                                 android:textStyle="bold" />
                         </LinearLayout>
                     </LinearLayout>

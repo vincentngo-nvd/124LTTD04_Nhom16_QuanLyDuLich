@@ -33,6 +33,7 @@ import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHotel_Activi
 import com.example.a124lttd04_travelappproject.view.tour.tour_ThanhToanThanhCong_Activity;
 import com.example.a124lttd04_travelappproject.view.tour.tour_Tour_Activity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.button.MaterialButton;
 
 public class plane_VeMayBay_Activity extends AppCompatActivity {
 
@@ -234,7 +235,7 @@ public class plane_VeMayBay_Activity extends AppCompatActivity {
     private void setupClickListeners() {
         ImageButton backButton = findViewById(R.id.back_button);
 
-        Button tk = findViewById(R.id.timkiem);
+        MaterialButton tk = findViewById(R.id.timkiem);
 
         tk.setOnClickListener(new View.OnClickListener() {
             @Override

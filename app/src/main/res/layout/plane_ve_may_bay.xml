@@ -233,7 +233,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:textColor="@color/black"
-                        android:text="Thứ Hai , 30 thg 9 2024">
+                        android:text="Thứ Tư, 01 thg 10 2024">
 
                     </TextView>
 
@@ -331,19 +331,19 @@
 
                 </LinearLayout>
 
-                    <Button
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/timkiem"
                         android:layout_width="280dp"
                         android:layout_marginTop="15dp"
                         android:layout_marginBottom="15dp"
                         android:layout_gravity="center"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/button_vemaybay"
                         android:text="Tìm Kiếm"
                         android:textColor="@color/white"
                         android:textSize="18dp"
-                        android:textStyle="bold">
-                    </Button>
+                        android:textStyle="bold"
+                        style="@style/CustomButtonStyle">
+                    </com.google.android.material.button.MaterialButton>
             </LinearLayout>
 
             <LinearLayout

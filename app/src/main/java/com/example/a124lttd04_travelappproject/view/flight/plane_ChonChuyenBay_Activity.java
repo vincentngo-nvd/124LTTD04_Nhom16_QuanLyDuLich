@@ -21,10 +21,11 @@ import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHotel_Activi
 import com.example.a124lttd04_travelappproject.view.tour.tour_CoTheBanSeThich_Activity;
 import com.example.a124lttd04_travelappproject.view.tour.tour_Tour_Activity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.button.MaterialButton;
 
 public class plane_ChonChuyenBay_Activity extends AppCompatActivity {
     TextView textView; // thay yourTextViewId bằng ID thực tế của TextView
-    Button Xacnhangia;
+    MaterialButton Xacnhangia;
     Button Exit;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

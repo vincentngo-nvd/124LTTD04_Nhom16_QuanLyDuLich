@@ -21,11 +21,12 @@ import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHotel_Activi
 import com.example.a124lttd04_travelappproject.view.tour.tour_CoTheBanSeThich_Activity;
 import com.example.a124lttd04_travelappproject.view.tour.tour_Tour_Activity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.button.MaterialButton;
 
 public class plane_XacNhanGiaChuyenBay_Activity extends AppCompatActivity {
     Button xng;
     TextView xng1;
-    Button ThanhToan;
+    MaterialButton ThanhToan;
     Button Exit;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

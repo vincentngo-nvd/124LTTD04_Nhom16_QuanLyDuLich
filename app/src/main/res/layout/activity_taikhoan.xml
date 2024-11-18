@@ -51,6 +51,7 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
                 android:src="@drawable/user_taikhoan">
             </ImageView>
             <TextView
@@ -74,6 +75,7 @@
             android:layout_width="200dp"
             android:layout_height="80dp"
             android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
             android:orientation="vertical"
             android:padding="5dp"
             android:background="@drawable/khuyenmai">
@@ -85,7 +87,8 @@
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:textSize="20dp"
-                android:layout_marginLeft="10dp">
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp">
 
             </TextView>
 
@@ -109,9 +112,10 @@
             android:paddingBottom="20dp"
             android:paddingTop="20dp"
             android:layout_marginTop="5dp"
-            android:background="@drawable/hotel_shape_menu"
-            >
+            android:background="@drawable/hotel_shape_menu">
+
             <LinearLayout
+                android:id="@+id/dadatganday"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -123,6 +127,7 @@
                     android:layout_gravity="center">
 
                 </ImageView>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -132,8 +137,8 @@
                     android:layout_gravity="center">
 
                 </TextView>
-
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -380,15 +385,16 @@
                 </TextView>
             </LinearLayout>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/signout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Đăng xuất"
                 android:textColor="@color/white"
                 android:padding="5dp"
-                android:layout_marginTop="10dp">
-            </Button>
+                android:layout_marginTop="10dp"
+                style="@style/CustomButtonStyle">
+            </com.google.android.material.button.MaterialButton>
 
 
         </LinearLayout>

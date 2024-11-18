@@ -30,18 +30,18 @@
                 android:id="@id/txt_hotel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingStart="5sp"
-                android:paddingTop="5sp"
                 android:textColor="@color/black"
+                android:layout_marginLeft="3dp"
                 android:text="PITACHIDO hotel SAPA"
-                android:textSize="10sp"
+                android:textSize="12dp"
                 android:textStyle="bold"/>
 
             <ImageView
                 android:id="@+id/five_star"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
                 android:src="@drawable/five_stars"/>
 
         </LinearLayout>
@@ -50,12 +50,11 @@
             android:id="@+id/price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20sp"
             android:gravity="end"
             android:padding="10dp"
             android:text="1.050.000₫"
             android:textColor="@android:color/holo_red_dark"
-            android:textSize="15sp"
+            android:textSize="16dp"
             android:textStyle="bold">
 
         </TextView>

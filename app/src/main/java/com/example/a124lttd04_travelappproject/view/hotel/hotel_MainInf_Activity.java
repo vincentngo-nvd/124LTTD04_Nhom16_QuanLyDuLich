@@ -31,6 +31,7 @@ import com.example.a124lttd04_travelappproject.adapter.hotel.hotel_CategoryPay_A
 import com.example.a124lttd04_travelappproject.view.flight.plane_VeMayBay_Activity;
 import com.example.a124lttd04_travelappproject.view.tour.tour_Tour_Activity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.button.MaterialButton;
 
 public class hotel_MainInf_Activity extends AppCompatActivity {
 
@@ -40,7 +41,7 @@ public class hotel_MainInf_Activity extends AppCompatActivity {
     private EditText checkInput;
     private EditText checkOutput;
 
-    private Button button;
+    private MaterialButton button;
     private ImageView img;
     @Override
     public Intent registerReceiver(@Nullable BroadcastReceiver receiver, IntentFilter filter) {

@@ -11,8 +11,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
+        android:background="@color/white"
+        android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -157,12 +157,15 @@
 
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:background="@drawable/no_stroke_border"
+            android:layout_margin="15dp"
+            android:padding="5dp"
+            android:background="@drawable/border"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -194,6 +197,7 @@
                     android:layout_marginLeft="10dp"
                     android:textColor="#5A5A5A">
                 </TextView>
+
                 <TextView
                     android:id="@+id/voucher"
                     android:layout_width="wrap_content"
@@ -204,8 +208,8 @@
                     android:textSize="16dp"
                     android:textStyle="bold"
                     android:textColor="#00CAFD"
-                    android:layout_weight="1"
-                    android:gravity="end">
+                    android:layout_marginLeft="150dp"
+                    android:layout_weight="1">
 
                 </TextView>
             </LinearLayout>
@@ -220,18 +224,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:text="Bạn có 1 vourcher khả dụng"
+                android:text="Bạn có 1 voucher khả dụng"
                 android:textSize="16dp"
                 android:textColor="#FF5722"
                 android:layout_marginBottom="5dp">
 
             </TextView>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:background="@drawable/hotel_pay"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:background="@drawable/border"
             android:orientation="vertical">
 
             <TextView
@@ -273,8 +279,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:background="@drawable/hotel_pay"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/top_border"
             android:orientation="vertical">
 
             <TextView
@@ -283,13 +289,18 @@
                 android:padding="10dp"
                 android:text="Tổng giá tiền"
                 android:textColor="@color/black"
-                android:textSize="17dp"></TextView>
+                android:textSize="17dp">
+
+            </TextView>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@android:color/darker_gray"></View>
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@android:color/darker_gray">
 
+            </View>
 
             <TextView
                 android:layout_width="match_parent"
@@ -303,18 +314,20 @@
                 android:layout_marginTop="10dp">
             </TextView>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/thanhtoanthanhcong"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:backgroundTint="#F96D0E"
                 android:textColor="@color/white"
                 android:text="Thanh toán &amp; Hiện mã QR"
-                android:layout_margin="5dp"
-                android:layout_marginBottom="20dp"
-                >
-            </Button>
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                style="@style/CustomButtonStyle">
+            </com.google.android.material.button.MaterialButton>
         </LinearLayout>
     </LinearLayout>
     </ScrollView>

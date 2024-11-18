@@ -29,7 +29,9 @@
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:layout_margin="15dp"
-                    android:background="@drawable/btnclose"></Button>
+                    android:background="@drawable/ic_arrow_back">
+
+                </Button>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -39,7 +41,9 @@
                     android:text="Hành lý"
                     android:textColor="@color/white"
                     android:textSize="22dp"
-                    android:textStyle="bold"></TextView>
+                    android:textStyle="bold">
+
+                </TextView>
             </LinearLayout>
 
             <TextView
@@ -48,9 +52,11 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
                 android:text="Chọn bay đi"
-                android:textColor="#3E83A3"
+                android:textColor="#3F51B5"
                 android:textSize="25dp"
-                android:textStyle="bold"></TextView>
+                android:textStyle="bold">
+
+            </TextView>
 
             <LinearLayout
                 android:layout_width="410dp"
@@ -76,10 +82,12 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="20dp"
-                        android:text="SGN-HAN"
-                        android:textColor="#918D8D"
+                        android:text="SGN - HAN"
+                        android:textColor="#3F51B5"
                         android:textSize="20dp"
-                        android:textStyle="bold"></TextView>
+                        android:textStyle="bold">
+
+                    </TextView>
                 </LinearLayout>
 
                 <LinearLayout
@@ -101,7 +109,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
                         android:text="Đổi lịch không khả dụng"
-                        android:textSize="19dp">
+                        android:textSize="18dp">
 
                     </TextView>
 
@@ -127,7 +135,9 @@
                         android:layout_marginLeft="26dp"
                         android:text="Được hoàn vé"
                         android:textColor="#1BEA04"
-                        android:textSize="20dp"></TextView>
+                        android:textSize="18dp">
+
+                    </TextView>
                 </LinearLayout>
             </LinearLayout>
 
@@ -149,16 +159,20 @@
                         android:layout_marginLeft="30dp"
                         android:text="Người lớn 1"
                         android:textColor="#918D8D"
-                        android:textSize="19dp"></TextView>
+                        android:textSize="16dp">
+
+                    </TextView>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="115dp"
                         android:text="Tổng cộng 15kg"
-                        android:textColor="#0C0C0C"
-                        android:textSize="20dp"
-                        android:textStyle="bold"></TextView>
+                        android:textColor="#FF5722"
+                        android:textSize="18dp"
+                        android:textStyle="bold">
+
+                    </TextView>
                 </LinearLayout>
 
                 <HorizontalScrollView
@@ -173,35 +187,52 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:orientation="horizontal">
 
-                        <Button
+                        <com.google.android.material.button.MaterialButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="10dp"
                             android:text="+0kg\n0VNĐ"
-                            android:textSize="18dp"></Button>
+                            android:textSize="14dp"
+                            android:textColor="@color/white"
+                            style="@style/CustomButtonStyle">
 
-                        <Button
+                        </com.google.android.material.button.MaterialButton>
+
+                        <com.google.android.material.button.MaterialButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="10dp"
                             android:text="+15 kg\n200.000 VNĐ"
-                            android:textSize="18dp"></Button>
+                            android:textSize="14dp"
+                            android:textColor="@color/white"
+                            style="@style/CustomButtonStyle">
 
-                        <Button
+                        </com.google.android.material.button.MaterialButton>
+
+                        <com.google.android.material.button.MaterialButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="10dp"
                             android:text="+23 kg\n273.000 VNĐ"
-                            android:textSize="18dp"></Button>
+                            android:textSize="14dp"
+                            android:textColor="@color/white"
+                            style="@style/CustomButtonStyle">
 
-                        <Button
+                        </com.google.android.material.button.MaterialButton>
+
+                        <com.google.android.material.button.MaterialButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="10dp"
                             android:text="+25 kg\n350.000 VNĐ"
-                            android:textSize="18dp"></Button>
+                            android:textSize="14dp"
+                            android:textColor="@color/white"
+                            style="@style/CustomButtonStyle">
+
+                        </com.google.android.material.button.MaterialButton>
                     </LinearLayout>
                 </HorizontalScrollView>
             </LinearLayout>
@@ -218,8 +249,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="15dp"
-                    android:text="Tổng"
-                    android:textSize="20dp"></TextView>
+                    android:text="Tổng:"
+                    android:textSize="16dp">
+
+                </TextView>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -233,20 +266,21 @@
                         android:layout_height="wrap_content"
                         android:text="200.000 VNĐ"
                         android:textColor="#FF2222"
-                        android:textSize="24dp"
+                        android:textSize="20dp"
                         android:textStyle="bold"></TextView>
 
-                    <Button
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/luu"
                         android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="75dp"
-                        android:background="@drawable/button_vemaybay"
                         android:text="Lưu"
+                        android:padding="10dp"
                         android:textColor="@color/white"
-                        android:textSize="20dp"
-                        android:textStyle="bold">
-                    </Button>
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        style="@style/CustomButtonStyle">
+                    </com.google.android.material.button.MaterialButton>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

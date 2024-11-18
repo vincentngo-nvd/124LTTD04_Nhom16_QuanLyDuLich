@@ -154,6 +154,7 @@
                     android:textStyle="normal" />
 
                 <LinearLayout
+                    android:id="@+id/item_tour"
                     android:orientation="horizontal"
                     android:padding="10dp"
                     android:layout_width="match_parent"
@@ -188,16 +189,17 @@
                             android:textColor="@android:color/holo_red_light"/>
 
                         <TextView
+                            android:id="@+id/textgach"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="490.000đ"/>
+                            android:text="1.474.999đ"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="1.474.999đ"
+                            android:text="465.000đ"
                             android:textColor="@android:color/holo_red_dark"
                             android:textSize="16sp"
                             android:textStyle="bold"/>
@@ -244,13 +246,13 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="490.000đ"/>
+                            android:text="1.474.999đ"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="1.474.999đ"
+                            android:text="465.000đ"
                             android:textColor="@android:color/holo_red_dark"
                             android:textSize="16sp"
                             android:textStyle="bold"/>

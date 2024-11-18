@@ -16,9 +16,10 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.a124lttd04_travelappproject.R;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHome_Activity;
+import com.google.android.material.button.MaterialButton;
 
 public class plane_LogIn_Activity extends AppCompatActivity {
-    Button btn;
+    MaterialButton btn;
     EditText editTextEmail ;
     EditText editTextPassword;
     ImageView check;

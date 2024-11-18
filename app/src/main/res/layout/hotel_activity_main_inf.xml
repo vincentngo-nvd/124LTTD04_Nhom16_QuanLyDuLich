@@ -42,14 +42,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/white"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="15dp"
                 android:padding="10dp"
-                android:background="@drawable/hotel_pay"
+                android:background="@drawable/border"
                 android:orientation="vertical">
 
                 <TextView
@@ -136,9 +137,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="15dp"
                 android:padding="10dp"
-                android:background="@drawable/hotel_pay"
+                android:background="@drawable/border"
                 android:orientation="vertical">
 
                 <TextView
@@ -174,9 +175,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="15dp"
                 android:padding="10dp"
-                android:background="@drawable/hotel_pay"
+                android:background="@drawable/border"
                 android:orientation="vertical">
 
                 <TextView
@@ -194,7 +195,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:background="#F2EFEF"
+                    android:background="@drawable/gray_border"
                     android:orientation="horizontal"
                     android:padding="5dp">
 
@@ -231,7 +232,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:background="#F2EFEF"
+                    android:background="@drawable/gray_border"
                     android:orientation="horizontal"
                     android:padding="5dp">
 
@@ -269,28 +270,29 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:padding="10dp"
-                android:background="@drawable/hotel_pay"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="5dp"
+                android:background="@drawable/top_border"
                 android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:text="Chi phí thanh toán"
-                    android:textSize="20dp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold">
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:padding="10dp"-->
+<!--                    android:text="Chi phí thanh toán"-->
+<!--                    android:textSize="20dp"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textStyle="bold">-->
 
-                </TextView>
+<!--                </TextView>-->
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@android:color/darker_gray">
+<!--                <View-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="1dp"-->
+<!--                    android:background="@android:color/darker_gray">-->
 
-                </View>
+<!--                </View>-->
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -306,7 +308,7 @@
                         android:layout_weight="1"
                         android:paddingLeft="5dp"
                         android:textColor="@color/black"
-                        android:text="Tổng giá tiền"
+                        android:text="Tổng giá tiền:"
                         android:textSize="17dp">
 
                     </TextView>
@@ -315,7 +317,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginRight="20dp"
                         android:text="1.773.528 VND"
                         android:textColor="@android:color/holo_red_dark"
                         android:textSize="18dp"
@@ -323,16 +324,19 @@
                     </TextView>
                 </LinearLayout>
 
-                <Button
+                <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_pay"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="end"
-                    android:layout_marginRight="20dp"
-                    android:backgroundTint="#F96D0E"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="13dp"
                     android:textColor="@color/white"
-                    android:text="Tiếp tục">
-                </Button>
+                    android:text="Tiếp tục"
+                    style="@style/CustomButtonStyle">
+                </com.google.android.material.button.MaterialButton>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

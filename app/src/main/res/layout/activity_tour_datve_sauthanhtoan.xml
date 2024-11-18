@@ -241,6 +241,7 @@
                 android:layout_height="match_parent"
                 android:background="#F0EFEF"
                 android:orientation="vertical">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -272,24 +273,25 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="TCBDOMBAY"
-                            android:layout_marginTop="3dp"
                             android:textSize="16dp"
                             android:layout_gravity="center"
+                            android:layout_marginTop="3dp"
                             android:layout_marginLeft="10dp"
                             android:textColor="#5A5A5A">
                         </TextView>
+
                         <TextView
                             android:id="@+id/voucher"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Thêm"
-                            android:layout_marginTop="3dp"
                             android:layout_gravity="center"
-                            android:textSize="16dp"
-                            android:textStyle="bold"
-                            android:textColor="#00CAFD"
+                            android:layout_marginLeft="150dp"
+                            android:layout_marginTop="3dp"
                             android:layout_weight="1"
-                            android:gravity="end">
+                            android:text="Thêm"
+                            android:textColor="#00CAFD"
+                            android:textSize="16dp"
+                            android:textStyle="bold">
 
                         </TextView>
                     </LinearLayout>
@@ -304,7 +306,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
-                        android:text="-200.000 VNĐ"
+                        android:text="- 200.000 VNĐ"
                         android:textSize="16dp"
                         android:textColor="#FF5722"
                         android:layout_marginBottom="5dp">
@@ -372,9 +374,9 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingBottom="5dp"
+                                android:textColor="@color/black"
                                 android:text="Momo"
                                 android:textSize="16dp"
-                                android:textColor="@color/black"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -407,8 +409,8 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:paddingBottom="5dp"
+                            android:textColor="@color/black"
                             android:text="Tổng giá tiền"
-                            android:textColor="#000000"
                             android:textSize="14sp" />
 
                         <TextView
@@ -487,7 +489,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/border"
-                        android:backgroundTint="#FF9600"
+                        android:backgroundTint="#1790F0"
                         android:gravity="center_vertical"
                         android:layout_margin="6dp"
                         android:padding="10dp">

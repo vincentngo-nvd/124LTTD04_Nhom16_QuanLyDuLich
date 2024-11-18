@@ -1,6 +1,7 @@
 package com.example.a124lttd04_travelappproject.view.tour;
 
 import android.content.Intent;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
@@ -37,6 +39,7 @@ public class tour_Tour_Activity extends AppCompatActivity {
     private RecyclerView horizontalRecyclerView;
     private tour_Horizontal_Adapter horizontalAdapter;
     private List<tour_City_Model> cityList;
+    TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,6 +81,9 @@ public class tour_Tour_Activity extends AppCompatActivity {
             }
         });
 
+        textView = findViewById(R.id.textgach);
+        textView.setPaintFlags(textView.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+
         horizontalRecyclerView = findViewById(R.id.horizontal_recyclerview);
 
         // Tạo danh sách các thành phố và hình ảnh
@@ -114,10 +120,23 @@ public class tour_Tour_Activity extends AppCompatActivity {
                 openHomePageActivity();
             }
         });
+
+        LinearLayout itemTour = findViewById(R.id.item_tour);
+        itemTour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openTourChiTietPageActivity();
+            }
+        });
     }
 
     private void openHomePageActivity() {
         Intent intent = new Intent(tour_Tour_Activity.this, hotel_MainHome_Activity.class);
+        startActivity(intent);
+    }
+
+    private void openTourChiTietPageActivity() {
+        Intent intent = new Intent(tour_Tour_Activity.this, tour_ChiTiet_Activity.class);
         startActivity(intent);
     }
 

@@ -126,20 +126,18 @@
 
         </LinearLayout>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_login"
             android:layout_width="280dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginTop="150dp"
-            android:background="@drawable/button_border"
             android:text="LOGIN"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="16dp"
-            >
+            style="@style/CustomButtonStyle" />
 
-        </Button>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -178,7 +176,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="                  Design by Group 16\nNguyễn Đăng Chiến: 22115053122306\nNguyễn Văn Công    : 22115053122307\nNgô Văn Dương         : 22115053122312"
+            android:text="                  Design by Group 16\n\nNguyễn Đăng Chiến: 22115053122306\nNguyễn Văn Công    : 22115053122307\nNgô Văn Dương         : 22115053122312"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:layout_gravity="bottom"

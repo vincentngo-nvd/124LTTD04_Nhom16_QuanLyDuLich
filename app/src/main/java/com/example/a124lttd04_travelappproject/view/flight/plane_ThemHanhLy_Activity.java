@@ -19,10 +19,11 @@ import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHome_Activit
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHotel_Activity;
 import com.example.a124lttd04_travelappproject.view.tour.tour_Tour_Activity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.button.MaterialButton;
 
 public class plane_ThemHanhLy_Activity extends AppCompatActivity {
     Button Exit;
-    Button Save;
+    MaterialButton Save;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

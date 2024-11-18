@@ -35,6 +35,7 @@
         <activity android:name=".view.tour.tour_ChiTiet_Activity" />
         <activity android:name=".view.tour.tour_DatVe_Activity" />
         <activity android:name=".view.tour.tour_Voucher" />
+        <activity android:name=".view.tour.tour_DaDatGanDay" />
         <activity android:name=".view.tour.tour_DatVe_SauThanhToan_Activity" />
         <activity android:name=".view.tour.tour_DatVe_DatCho_Activity" />
         <activity android:name=".view.tour.tour_DatVe_ClickDatNgayKhiChuaChonVe_Activity" />

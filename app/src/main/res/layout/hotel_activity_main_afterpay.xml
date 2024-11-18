@@ -11,8 +11,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
+        android:background="@color/white"
+        android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,7 +38,8 @@
                     android:layout_marginLeft="10sp"
                     android:text="Hoàn tất thanh toán"
                     android:textColor="@color/white"
-                    android:textSize="20sp" />
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -64,8 +65,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:text="Phòng đôi Deluxe"
                     android:textColor="@color/black"
+                    android:text="Phòng đôi Deluxe"
                     android:textSize="17dp"
                     android:textStyle="bold">
                 </TextView>
@@ -74,8 +75,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:alpha="0.5"
-                    android:padding="2dp"
                     android:textColor="@color/black"
+                    android:padding="2dp"
                     android:text="1 phòng"
                     android:textSize="15dp"
                     android:textStyle="bold"
@@ -99,10 +100,10 @@
                     android:layout_height="wrap_content"
                     android:alpha="0.5"
                     android:padding="2dp"
+                    android:textColor="@color/black"
                     android:text="Ngày đặt phòng : 10/10/2024"
                     android:textSize="15dp"
                     android:textStyle="bold"
-                    android:textColor="@color/black"
                     android:layout_marginLeft="10dp">
                 </TextView>
 
@@ -112,9 +113,9 @@
                     android:layout_marginBottom="10dp"
                     android:alpha="0.5"
                     android:padding="2dp"
+                    android:textColor="@color/black"
                     android:text="Ngày trả phòng : 11/10/2024"
                     android:textSize="15dp"
-                    android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp">
                 </TextView>
@@ -156,12 +157,15 @@
 
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:background="@drawable/no_stroke_border"
+            android:layout_margin="15dp"
+            android:padding="5dp"
+            android:background="@drawable/border"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -193,6 +197,7 @@
                     android:layout_marginLeft="10dp"
                     android:textColor="#5A5A5A">
                 </TextView>
+
                 <TextView
                     android:id="@+id/voucher"
                     android:layout_width="wrap_content"
@@ -203,8 +208,8 @@
                     android:textSize="16dp"
                     android:textStyle="bold"
                     android:textColor="#00CAFD"
-                    android:layout_weight="1"
-                    android:gravity="end">
+                    android:layout_marginLeft="150dp"
+                    android:layout_weight="1">
 
                 </TextView>
             </LinearLayout>
@@ -219,18 +224,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:text="-200.000 VNĐ"
+                android:text="- 200.000 VNĐ"
                 android:textSize="16dp"
                 android:textColor="#FF5722"
                 android:layout_marginBottom="5dp">
 
             </TextView>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:background="@drawable/hotel_pay"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:background="@drawable/border"
             android:orientation="vertical">
 
             <TextView
@@ -262,8 +269,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginLeft="10dp"
-                    android:textColor="@color/black"
                     android:text="Momo"
+                    android:textColor="@color/black"
                     android:textSize="16dp"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
@@ -272,8 +279,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:background="@drawable/hotel_pay"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/top_border"
             android:orientation="vertical">
 
             <TextView
@@ -282,12 +289,18 @@
                 android:padding="10dp"
                 android:text="Tổng giá tiền"
                 android:textColor="@color/black"
-                android:textSize="17dp"></TextView>
+                android:textSize="17dp">
+
+            </TextView>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@android:color/darker_gray"></View>
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@android:color/darker_gray">
+
+            </View>
 
 
             <TextView
@@ -302,18 +315,20 @@
                 android:layout_marginTop="10dp">
             </TextView>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/thanhtoanthanhcong"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:backgroundTint="#F96D0E"
                 android:textColor="@color/white"
                 android:text="Thanh toán &amp; Hiện mã QR"
-                android:layout_margin="5dp"
-                android:layout_marginBottom="20dp"
-                >
-            </Button>
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                style="@style/CustomButtonStyle">
+            </com.google.android.material.button.MaterialButton>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

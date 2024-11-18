@@ -36,7 +36,7 @@
                             android:id="@+id/exit"
                             android:layout_width="24dp"
                             android:layout_height="24dp"
-                            android:background="@drawable/btnclose"
+                            android:background="@drawable/ic_arrow_back"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="18dp"
                             android:layout_marginRight="30dp">
@@ -45,35 +45,41 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Thêm thông tin hành khách"
-                            android:layout_marginTop="18dp"
+                            android:layout_marginTop="13dp"
                             android:textColor="@color/white"
                             android:textSize="22dp"
                             android:textStyle="bold"
                             android:layout_marginLeft="5dp">
 
                         </TextView>
-                        <Button
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:background="@drawable/share"
-                            android:layout_marginTop="18dp"
-                            android:layout_marginLeft="20dp">
-                        </Button>
+<!--                        <Button-->
+<!--                            android:layout_width="24dp"-->
+<!--                            android:layout_height="24dp"-->
+<!--                            android:background="@drawable/share"-->
+<!--                            android:layout_marginTop="18dp"-->
+<!--                            android:layout_marginLeft="20dp">-->
+<!--                        </Button>-->
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
-                    android:layout_width="370dp"
-                    android:layout_height="220dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="40dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="65dp"
                     android:background="@drawable/vemaybay_border">
+
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:layout_marginTop="10dp"
                         android:layout_marginLeft="10dp">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -117,7 +123,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Th7,25 thg 1 2025"
+                                android:text="Th 4,01 thg 10 2024"
                                 android:textColor="@color/black"
                                 android:layout_marginTop="5dp">
 
@@ -125,7 +131,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="22:55"
+                                android:text="22:45"
                                 android:textColor="@color/black"
                                 android:layout_marginTop="5dp">
                             </TextView>
@@ -149,23 +155,25 @@
                                 android:layout_height="wrap_content"
                                 android:text="2h 15m"
                                 android:textColor="@color/black"
+                                android:layout_margin="10dp"
                                 android:layout_gravity="center">
 
                             </TextView>
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textColor="@color/black"
-                                android:text="--Bay thẳng-->">
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textColor="@color/black"-->
+<!--                                android:text="&#45;&#45;Bay thẳng&ndash;&gt;">-->
 
-                            </TextView>
+<!--                            </TextView>-->
                         </LinearLayout>
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
-                            android:layout_gravity="center"
-                            android:layout_marginLeft="15dp">
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp">
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -179,7 +187,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/black"
-                                android:text="Th 7, 25 thg 1 2025"
+                                android:text="Th 5, 02 thg 10 2024"
                                 android:layout_marginTop="5dp">
 
                             </TextView>
@@ -187,18 +195,18 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/black"
-                                android:text="23:10"
+                                android:text="00:55"
                                 android:layout_marginTop="5dp">
 
                             </TextView>
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textColor="@color/black"
-                                android:text="Nguyên bản . Promo"
-                                android:layout_marginTop="5dp">
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textColor="@color/black"-->
+<!--                                android:text="Nguyên bản . Promo"-->
+<!--                                android:layout_marginTop="5dp">-->
 
-                            </TextView>
+<!--                            </TextView>-->
                         </LinearLayout>
 
                     </LinearLayout>
@@ -208,8 +216,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Hành khách"
+                android:textStyle="bold"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="18dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp">
             </TextView>
@@ -236,7 +245,7 @@
                     android:layout_height="24dp"
                     android:background="@drawable/add"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="210dp">
+                    android:layout_marginLeft="230dp">
 
                 </Button>
             </LinearLayout>
@@ -244,8 +253,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Các thông tin cần thiết cho chuyến bay"
+                android:textStyle="bold"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="18dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp">
             </TextView>
@@ -289,19 +299,20 @@
                     android:text="Sao bạn phải cố nhồi nhét ? Thêm hành lý để chuyến đi thêm nhẹ nhàng">
                 </TextView>
                 <LinearLayout
-                    android:layout_width="370dp"
-                    android:layout_height="70dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:background="@drawable/xacnhanchuyenbay_boder"
-                    android:layout_marginTop="22dp">
+                    android:padding="10dp"
+                    android:background="@drawable/linear_background"
+                    android:layout_margin="15dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Từ 200.000 VND"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="40dp"
-                        android:textSize="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="18dp"
                         android:textStyle="bold"
                         android:textColor="#FF0000">
                     </TextView>
@@ -311,10 +322,10 @@
                         android:layout_height="wrap_content"
                         android:text="Chọn"
                         android:layout_gravity="center"
-                        android:textColor="#07C5F4"
+                        android:textColor="#FFFFFF"
                         android:textStyle="bold"
                         android:textSize="17dp"
-                        android:layout_marginLeft="110dp">
+                        android:layout_marginLeft="80dp">
                     </TextView>
                     <Button
                         android:id="@+id/themhanhly1"
@@ -328,25 +339,30 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="410dp"
-                android:layout_height="160dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
                 android:orientation="vertical"
                 android:background="@color/white">
+
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    >
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Tổng giá tiền cho một người"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
                         android:layout_marginRight="30dp"
-                        android:textSize="16dp">
+                        android:textSize="14dp">
                     </TextView>
-                    <Button
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/thanhtoan"
                         android:layout_width="120dp"
                         android:layout_height="50dp"
@@ -354,9 +370,10 @@
                         android:background="@drawable/button_maybay"
                         android:textColor="@color/white"
                         android:textStyle="bold"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginLeft="6dp">
-                    </Button>
+                        android:layout_marginTop="5dp"
+                        style="@style/CustomButtonStyle">
+
+                    </com.google.android.material.button.MaterialButton>
                 </LinearLayout>
                 <TextView
                     android:layout_width="wrap_content"
@@ -374,9 +391,9 @@
                     android:text="Đã bao gồm tất cả giá vé và thuế"
                     android:textColor="#B3A7A2"
                     android:textStyle="bold"
-                    android:textSize="16dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="10dp">
+                    android:layout_marginTop="5dp">
                 </TextView>
             </LinearLayout>
         </LinearLayout>

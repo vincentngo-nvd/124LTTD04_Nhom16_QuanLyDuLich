@@ -12,9 +12,10 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.a124lttd04_travelappproject.R;
+import com.google.android.material.button.MaterialButton;
 
 public class plane_SignIn_Activity extends AppCompatActivity {
-    Button btn;
+    MaterialButton btn;
     EditText firtname;
     EditText email;
     EditText password;
@@ -31,7 +32,7 @@ public class plane_SignIn_Activity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder builder=new AlertDialog.Builder(plane_SignIn_Activity.this);
+                AlertDialog.Builder builder = new AlertDialog.Builder(plane_SignIn_Activity.this);
                 builder.setTitle("Thông báo")
                         .setMessage("Bán có chắc chắn muốn tạo tài khoản không ?")
                         .setNegativeButton("Có", new DialogInterface.OnClickListener() {
