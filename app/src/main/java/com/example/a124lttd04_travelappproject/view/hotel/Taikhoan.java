@@ -17,6 +17,8 @@ import com.example.a124lttd04_travelappproject.R;
 import com.example.a124lttd04_travelappproject.view.flight.plane_LogIn_Activity;
 import com.example.a124lttd04_travelappproject.view.flight.plane_VeMayBay_Activity;
 import com.example.a124lttd04_travelappproject.view.tour.tour_DaDatGanDay;
+import com.example.a124lttd04_travelappproject.view.tour.tour_DaLuu;
+import com.example.a124lttd04_travelappproject.view.tour.tour_MaGiamGia;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.button.MaterialButton;
 
@@ -86,10 +88,36 @@ public class Taikhoan extends AppCompatActivity {
                 openDaDatGanDayPageActivity();
             }
         });
+
+        LinearLayout taiKhoan_MaGiamGia = findViewById(R.id.taikhoan_magiamgia);
+        taiKhoan_MaGiamGia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMaGiamGiaPageActivity();
+            }
+        });
+
+        LinearLayout taiKhoan_DaLuu = findViewById(R.id.taikhoan_daluu);
+        taiKhoan_DaLuu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openDaLuuPageActivity();
+            }
+        });
     }
 
     private void openSignInPageActivity() {
         Intent intent = new Intent(Taikhoan.this, plane_LogIn_Activity.class);
+        startActivity(intent);
+    }
+
+    private void openDaLuuPageActivity() {
+        Intent intent = new Intent(Taikhoan.this, tour_DaLuu.class);
+        startActivity(intent);
+    }
+
+    private void openMaGiamGiaPageActivity() {
+        Intent intent = new Intent(Taikhoan.this, tour_MaGiamGia.class);
         startActivity(intent);
     }
 

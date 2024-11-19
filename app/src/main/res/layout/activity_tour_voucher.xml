@@ -143,7 +143,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#777777"
-            android:text="Tối thiểu giao dịch trên 100.000 VNĐ"
+            android:text="Tối thiểu giao dịch trên 200.000 VNĐ"
             ></TextView>
         <LinearLayout
             android:layout_width="wrap_content"

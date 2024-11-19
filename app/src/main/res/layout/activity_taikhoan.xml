@@ -72,6 +72,7 @@
             </ImageView>
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/taikhoan_magiamgia"
             android:layout_width="200dp"
             android:layout_height="80dp"
             android:layout_marginTop="5dp"
@@ -225,7 +226,9 @@
                 </TextView>
 
             </LinearLayout>
+
             <LinearLayout
+                android:id="@+id/taikhoan_daluu"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

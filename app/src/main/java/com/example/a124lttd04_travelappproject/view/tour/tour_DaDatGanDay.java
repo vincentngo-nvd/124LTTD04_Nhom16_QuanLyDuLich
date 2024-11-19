@@ -1,6 +1,7 @@
 package com.example.a124lttd04_travelappproject.view.tour;
 
 import android.content.Intent;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -68,6 +69,9 @@ public class tour_DaDatGanDay extends AppCompatActivity  {
             }
         });
 
+        TextView textView = findViewById(R.id.textgach);
+        textView.setPaintFlags(textView.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+
         setupClickListeners();
     }
 
@@ -80,10 +84,23 @@ public class tour_DaDatGanDay extends AppCompatActivity  {
                 openTourChiTietPageActivity();
             }
         });
+
+        TextView danhGiaSanPham = findViewById(R.id.danhgiasanpham);
+        danhGiaSanPham.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openDanhGiaSanPhamPageActivity();
+            }
+        });
     }
 
     private void openTourChiTietPageActivity() {
         Intent intent = new Intent(tour_DaDatGanDay.this, tour_ChiTiet_Activity.class);
+        startActivity(intent);
+    }
+
+    private void openDanhGiaSanPhamPageActivity() {
+        Intent intent = new Intent(tour_DaDatGanDay.this, tour_DanhGiaSanPham.class);
         startActivity(intent);
     }
 }

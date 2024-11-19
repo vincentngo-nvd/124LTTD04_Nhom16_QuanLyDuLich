@@ -1,16 +1,19 @@
 package com.example.a124lttd04_travelappproject.view.tour;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
@@ -35,7 +38,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class tour_Tour_Activity extends AppCompatActivity {
-
+    private boolean isLoved = false;
     private RecyclerView horizontalRecyclerView;
     private tour_Horizontal_Adapter horizontalAdapter;
     private List<tour_City_Model> cityList;
@@ -81,6 +84,26 @@ public class tour_Tour_Activity extends AppCompatActivity {
             }
         });
 
+        ImageView loveImageView = findViewById(R.id.love);
+
+        // Gắn sự kiện click cho ImageView
+        loveImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Kiểm tra trạng thái và chuyển đổi hình ảnh
+                if (isLoved) {
+                    loveImageView.setImageResource(R.drawable.love); // Trở về icon "love"
+                    Toast.makeText(tour_Tour_Activity.this, "Đã xóa khỏi yêu thích!", Toast.LENGTH_SHORT).show();
+                } else {
+                    loveImageView.setImageResource(R.drawable.redlove); // Chuyển sang icon "redlove"
+                    Toast.makeText(tour_Tour_Activity.this, "Đã thêm vào yêu thích!", Toast.LENGTH_SHORT).show();
+
+                    // Lưu thông tin item vào SharedPreferences hoặc Database (bạn có thể dùng SharedPreferences để lưu lại trạng thái yêu thích)
+                    saveFavoriteItem();  // Thay giá trị tương ứng
+                }
+                isLoved = !isLoved; // Đảo trạng thái
+            }
+        });
         textView = findViewById(R.id.textgach);
         textView.setPaintFlags(textView.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
 
@@ -111,6 +134,24 @@ public class tour_Tour_Activity extends AppCompatActivity {
         setupClickListeners();
     }
 
+    // Lưu item vào SharedPreferences (hoặc có thể lưu vào Database)
+    private void saveFavoriteItem() {
+        // Lấy thông tin sản phẩm yêu thích (ví dụ)
+        String itemName = "Vé Công viên nước The Amazing Bay";
+        String itemPrice = "465.000đ";
+        int itemImage = R.drawable.anh1;
+
+        // Lưu thông tin vào SharedPreferences
+        SharedPreferences sharedPreferences = getSharedPreferences("FavoriteItems", MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("item_name", itemName);
+        editor.putString("item_price", itemPrice);
+        editor.putInt("item_image", itemImage);
+        editor.putString("item_xperiencedeal", "Xperience Deals");
+        editor.putString("item_textgach", "1.474.999đ");
+        editor.apply();
+    }
+
     private void setupClickListeners() {
         ImageView backButton = findViewById(R.id.back_button);
 
@@ -128,10 +169,23 @@ public class tour_Tour_Activity extends AppCompatActivity {
                 openTourChiTietPageActivity();
             }
         });
+
+        ImageButton cartButton = findViewById(R.id.cart_button);
+        cartButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openCartPageActivity();
+            }
+        });
     }
 
     private void openHomePageActivity() {
         Intent intent = new Intent(tour_Tour_Activity.this, hotel_MainHome_Activity.class);
+        startActivity(intent);
+    }
+
+    private void openCartPageActivity() {
+        Intent intent = new Intent(tour_Tour_Activity.this, tour_Cart_Activity.class);
         startActivity(intent);
     }
 

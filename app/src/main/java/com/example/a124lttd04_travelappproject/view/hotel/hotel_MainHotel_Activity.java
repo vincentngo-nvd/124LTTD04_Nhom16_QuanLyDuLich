@@ -5,8 +5,10 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -27,6 +29,8 @@ import com.example.a124lttd04_travelappproject.adapter.hotel.hotel_Category_Adap
 import com.example.a124lttd04_travelappproject.adapter.hotel.hotel_ChooseHotel_Hotel_Adapter;
 import com.example.a124lttd04_travelappproject.model.hotel.hotel_ChooseHotel_Hotel_Model;
 import com.example.a124lttd04_travelappproject.view.flight.plane_VeMayBay_Activity;
+import com.example.a124lttd04_travelappproject.view.tour.tour_Cart_Activity;
+import com.example.a124lttd04_travelappproject.view.tour.tour_ChiTiet_Activity;
 import com.example.a124lttd04_travelappproject.view.tour.tour_Tour_Activity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -118,8 +122,18 @@ public class hotel_MainHotel_Activity extends AppCompatActivity {
             }
         });
 
+        ImageButton cartButton = findViewById(R.id.cart_button);
+        cartButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openCartPageActivity();
+            }
+        });
+    }
 
-
+    private void openCartPageActivity() {
+        Intent intent = new Intent(hotel_MainHotel_Activity.this, tour_Cart_Activity.class);
+        startActivity(intent);
     }
 
     private List<hotel_Category_Model> getListCategory(){

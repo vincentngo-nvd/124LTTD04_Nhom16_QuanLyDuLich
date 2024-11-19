@@ -31,10 +31,14 @@
         <!-- tour -->
         <activity android:name=".view.tour.tour_Tour_Activity" android:exported="true" />
         <activity android:name=".view.tour.tour_CoTheBanSeThich_Activity" />
+        <activity android:name=".view.tour.tour_DanhGiaSanPham" />
         <activity android:name=".view.tour.tour_ThanhToanThanhCong_Activity" />
         <activity android:name=".view.tour.tour_ChiTiet_Activity" />
         <activity android:name=".view.tour.tour_DatVe_Activity" />
         <activity android:name=".view.tour.tour_Voucher" />
+        <activity android:name=".view.tour.tour_MaGiamGia" />
+        <activity android:name=".view.tour.tour_DaLuu" />
+        <activity android:name=".view.tour.tour_Cart_Activity" />
         <activity android:name=".view.tour.tour_DaDatGanDay" />
         <activity android:name=".view.tour.tour_DatVe_SauThanhToan_Activity" />
         <activity android:name=".view.tour.tour_DatVe_DatCho_Activity" />

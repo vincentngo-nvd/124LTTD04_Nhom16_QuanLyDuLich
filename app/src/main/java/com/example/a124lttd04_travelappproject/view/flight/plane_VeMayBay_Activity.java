@@ -30,6 +30,7 @@ import com.example.a124lttd04_travelappproject.adapter.flight.plane_CategoryQuoc
 import com.example.a124lttd04_travelappproject.view.hotel.Taikhoan;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHome_Activity;
 import com.example.a124lttd04_travelappproject.view.hotel.hotel_MainHotel_Activity;
+import com.example.a124lttd04_travelappproject.view.tour.tour_Cart_Activity;
 import com.example.a124lttd04_travelappproject.view.tour.tour_ThanhToanThanhCong_Activity;
 import com.example.a124lttd04_travelappproject.view.tour.tour_Tour_Activity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -250,6 +251,19 @@ public class plane_VeMayBay_Activity extends AppCompatActivity {
                 openHomePageActivity();
             }
         });
+
+        ImageButton cartButton = findViewById(R.id.cart_button);
+        cartButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openCartPageActivity();
+            }
+        });
+    }
+
+    private void openCartPageActivity() {
+        Intent intent = new Intent(plane_VeMayBay_Activity.this, tour_Cart_Activity.class);
+        startActivity(intent);
     }
 
     private void openTimKiemChuyenBayActivity() {
