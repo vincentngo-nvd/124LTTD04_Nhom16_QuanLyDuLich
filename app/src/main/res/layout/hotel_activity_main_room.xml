@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:id="@+id/main_chooseRoom" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <!--  Nội dung chính sẽ chiếm toàn bộ không gian còn lại  -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:orientation="vertical" android:background="#17D2EF" android:layout_weight="1">
+        <!--  Thanh tiêu đề  -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="#17D2EF">
+            <!--  Tiêu đề  -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="#17D2EF" android:padding="15dp">
+                <ImageView android:id="@+id/img_back_room" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/back_24" android:layout_marginTop="2dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Đặt phòng" android:textColor="@color/white" android:textSize="20sp" android:layout_marginLeft="10sp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@drawable/no_stroke_border">
+                <ImageView android:id="@+id/img_khachsan" android:layout_width="100dp" android:layout_height="match_parent" android:src="@drawable/hotel_6" android:scaleType="centerCrop"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="10dp">
+                    <TextView android:id="@+id/tv_tenkhachsan" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16dp" android:textStyle="bold" android:textColor="@color/black" android:padding="5dp" android:text="Khách sạn Mường Thanh luxury Nha Trang"/>
+                    <View android:layout_width="match_parent" android:layout_height="0.5sp" android:background="@android:color/darker_gray"/>
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14dp" android:textStyle="bold" android:textColor="@color/black" android:padding="5dp" android:text="Mô tả khách sạn" android:alpha="0.7"/>
+                    <TextView android:id="@+id/tv_mota" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="10dp" android:padding="5dp" android:alpha="0.7" android:textColor="@color/black" android:text="Quầy tiếp tân 24 giờ luôn sẵn sàng phục vụ quý khách. Nếu cần giúp đỡ xin hãy liên hệ đội ngũ tiếp tân, chúng tôi sẵn sàng hỗ trợ quý khách."/>
+                    <View android:layout_width="match_parent" android:layout_height="0.5sp" android:background="@android:color/darker_gray"/>
+                </LinearLayout>
+            </LinearLayout>
+            <!--  Phần chọn số lượng người và nút thay đổi  -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_margin="15dp" android:weightSum="2" android:background="@drawable/no_stroke_border">
+                <Spinner android:id="@+id/spn_selectedPerson" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:layout_margin="10dp" android:background="@drawable/hotel_menu" android:layout_gravity="center"/>
+                <Button android:id="@+id/btn_thaydoi" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="10dp" android:layout_weight="1" android:text="Thay đổi" android:textColor="@color/white" android:backgroundTint="#0788FF" android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!--  RecyclerView cho việc chọn phòng  -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_margin="10dp">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/rcv_chooseRoom" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@+id/bottom_nav" android:layout_width="match_parent" android:layout_height="wrap_content" android:fitsSystemWindows="true" app:menu="@menu/menu_bottom_nav"/>
+</LinearLayout>

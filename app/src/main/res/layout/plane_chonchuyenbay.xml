@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main2"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#E4E4E4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bkchonchuyenbay"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/exit"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/ic_arrow_back"
+                        android:layout_margin="20dp">
+                    </Button>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vietravel Airlines"
+                        android:layout_marginTop="15dp"
+                        android:textColor="@color/white"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="60dp">
+
+                    </TextView>
+<!--                    <Button-->
+<!--                        android:layout_width="24dp"-->
+<!--                        android:layout_height="24dp"-->
+<!--                        android:background="@drawable/share"-->
+<!--                        android:layout_marginTop="18dp"-->
+<!--                        android:layout_marginLeft="60dp">-->
+
+<!--                    </Button>-->
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SGN - HAN"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white">
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:text="Chuyến bay"
+                    android:textSize="11dp"
+                    android:background="@color/white"
+                    android:textColor="#FFFFFF"
+                    style="@style/CustomButtonNoRadiusStyle">
+                </com.google.android.material.button.MaterialButton>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Lợi ích đi kèm"
+                    android:textSize="11dp"
+                    android:background="@color/white"
+                    android:textColor="#FFFFFF"
+                    style="@style/CustomButtonNoRadiusStyle">
+
+                </com.google.android.material.button.MaterialButton>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:text="Đổi lịch bay"
+                    android:background="@color/white"
+                    android:textColor="#FFFFFF"
+                    style="@style/CustomButtonNoRadiusStyle"
+                    android:textSize="11dp">
+                </com.google.android.material.button.MaterialButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/bottom_edge"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TP HCM - Hà Nội"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="24dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/unlock"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="60dp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2h10m"
+                    android:textColor="#FF0000"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:orientation="horizontal"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="22:45"
+                        android:textColor="@color/black"
+                        android:textSize="19dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 thg 10"
+                        android:textSize="18dp"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2h 10m"
+                        android:textColor="#FF5722"
+                        android:layout_marginTop="150dp"
+                        android:layout_marginBottom="150dp"
+                        android:textSize="18dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="00:55"
+                        android:textColor="@color/black"
+                        android:textSize="19dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 thg 10"
+                        android:textSize="18dp">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="460dp"
+                    android:background="@drawable/line_chonchuyenbay"
+                    android:layout_gravity="center">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TP HCM(SGN)"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="30dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sân bay Tân Sơn Nhất"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="5dp"
+                        android:textSize="16dp">
+
+                    </TextView>
+                    <LinearLayout
+                        android:layout_width="240dp"
+                        android:layout_height="300dp"
+                        android:background="@drawable/border"
+                        android:orientation="vertical"
+                        android:layout_marginTop="15dp">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Vietravel Airlines"
+                                android:layout_gravity="center"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="5dp">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/th1">
+
+                            </TextView>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nâng hạn chuyến bay của bạn"
+                            android:layout_gravity="center"
+                            android:textSize="14dp"
+                            android:textColor="#3F51B5"
+                            android:background="@drawable/border"
+                            android:padding="7dp"
+                            >
+
+                        </TextView>
+                        <TextView
+                            android:layout_width="240dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/line_chonchuyenbay1"
+                            android:layout_gravity="center"
+                            >
+                        </TextView>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="10dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/luggage"
+                                android:layout_marginLeft="20dp">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="7kg hành lý xách tay "
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="20dp">
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="10dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/television"
+                                android:layout_marginLeft="20dp">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:text="Giải trí trên chuyến bay không có sẵn "
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="20dp">
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="10dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/wifi"
+                                android:layout_marginLeft="20dp">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Wifi không có sẵn "
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="20dp">
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/pendrive"
+                                android:layout_marginLeft="20dp">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cổng nguồn/USB không có sẵn "
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="20dp">
+                            </TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hà Nội (HAN)"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="10dp">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Sân bay Nội Bài"
+                        android:textSize="16dp">
+                    </TextView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textgach"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="1.986.000 VND/Khách"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1.508.651 VNĐ/Khách"
+                        android:layout_weight="1"
+                        android:textColor="#F02A2A"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_marginRight="50dp">
+                    </TextView>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/xacnhangia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_vemaybay"
+                        android:text="Chọn"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        style="@style/CustomButtonStyle">
+                    </com.google.android.material.button.MaterialButton>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:menu="@menu/menu_bottom_nav"
+            >
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </LinearLayout>
+
+</LinearLayout>

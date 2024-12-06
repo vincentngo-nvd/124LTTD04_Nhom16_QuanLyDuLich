@@ -1,0 +1,15 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="10dp" android:layout_margin="10dp" android:background="@color/white">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <ImageView android:id="@+id/img_chooseHotel" android:layout_width="100dp" android:layout_height="155dp" android:scaleType="center" android:src="@drawable/hotel_5"> </ImageView>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="10dp" android:orientation="vertical" android:background="@color/white">
+            <TextView android:id="@+id/tv_nameChooseHotel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Khách sạn Mường Thanh Luxury Nha Trang" android:textStyle="bold" android:textColor="@color/black" android:textSize="13sp"> </TextView>
+            <ImageView android:id="@+id/img_fiveStarChoose" android:layout_width="50dp" android:layout_height="20dp" android:src="@drawable/rating"> </ImageView>
+            <TextView android:id="@+id/tv_locationChoose" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="khách sạn hàng đầu.." android:textColor="@color/black" android:textSize="10dp"> </TextView>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="right">
+                <TextView android:id="@+id/tv_priceChoose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:gravity="end" android:text="1.102.524" android:textColor="@android:color/holo_red_dark" android:textSize="15sp" android:textStyle="bold"> </TextView>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:text="VND" android:textColor="@android:color/holo_red_dark" android:textSize="15sp" android:textStyle="bold"> </TextView>
+            </LinearLayout>
+            <Button android:id="@+id/btn_chooseRoom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Chọn phòng" android:textColor="@color/white" android:backgroundTint="#F96D0E" android:layout_gravity="end" android:layout_marginRight="10sp" android:layout_marginTop="5dp"> </Button>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

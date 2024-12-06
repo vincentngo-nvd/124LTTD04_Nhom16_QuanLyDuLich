@@ -1,0 +1,17 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_chonsonguoi"
+        android:text="Địa điểm , khách sạn"
+        android:textSize="10sp"
+        android:padding="10sp"> </TextView>
+    <View android:layout_width="match_parent"
+        android:layout_height="0.5sp"
+        android:background="@android:color/darker_gray"> </View>
+</LinearLayout>

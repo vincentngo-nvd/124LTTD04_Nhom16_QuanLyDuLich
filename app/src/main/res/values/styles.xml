@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">#1790F0</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+
+    <style name="CustomButtonNoRadiusStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">#1790F0</item>
+    </style>
+</resources>

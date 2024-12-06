@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Hình dạng viền -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="3dp"
+                android:color="#5AFF00" />
+        </shape>
+    </item>
+
+    <!-- Dấu tích -->
+    <item android:gravity="center">
+        <bitmap
+            android:src="@drawable/checkmark"
+        android:gravity="center" />
+    </item>
+</layer-list>

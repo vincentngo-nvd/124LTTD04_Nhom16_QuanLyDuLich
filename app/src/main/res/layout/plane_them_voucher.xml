@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:id="@+id/voucher">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F3F3F3">
+        <!-- Tiêu đề -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Áp dụng Phiếu giảm giá "
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Input coupon code -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập mã voucher"
+            android:padding="12dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/no_stroke_border"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Nút Áp dụng -->
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Áp dụng"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            style="@style/CustomButtonStyle"/>
+
+        <!--    <TextView-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:text="Explore coupons"-->
+        <!--        android:textColor="@color/black"-->
+        <!--        android:textSize="18sp"-->
+        <!--        android:textStyle="bold"-->
+        <!--        android:layout_marginBottom="8dp"-->
+        <!--        android:layout_marginLeft="16dp" />-->
+
+        <!-- Coupon item 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Tiết kiệm 200.000 VNĐ cho tất cả cá vé máy bay"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#777777"
+                android:text="Tối thiểu giao dịch 1 triệu đồng sử dụng tất cả thẻ tín dụng ngân hàng">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="680px"
+                    android:layout_height="100px"
+                    android:orientation="horizontal"
+                    android:background="@drawable/gray_border"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:background="@drawable/copy"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="THEHDBMB"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#808080">
+
+                    </TextView>
+                </LinearLayout>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Apply"
+                    android:layout_marginLeft="30dp"
+                    android:backgroundTint="#BDBCBC"
+                    android:textColor="#ECECEC"
+                    >
+
+                </Button>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bạn chưa đủ điều kiện để sử dụng"
+                android:textSize="14sp"
+                android:textColor="#FF5722" />
+        </LinearLayout>
+
+        <!-- Coupon item 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giảm 200.000 VNĐ cho vé máy bay nội địa"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#777777"
+                android:text="Tối thiểu giao dịch trên 200.000 VNĐ "
+                ></TextView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="680px"
+                    android:layout_height="100px"
+                    android:orientation="horizontal"
+                    android:background="@drawable/gray_border"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:background="@drawable/copy"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TCBDOMBAY"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#808080">
+
+                    </TextView>
+                </LinearLayout>
+                <Button
+                    android:id="@+id/applygiamgia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Apply"
+                    android:layout_marginLeft="30dp"
+                    android:backgroundTint="#077BF8"
+                    android:textColor="#FFFFFF">
+
+                </Button>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phần thưởng dành cho bạn"
+                android:textSize="14sp"
+                android:textColor="#FF5722" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/top_border"
+            android:paddingBottom="10dp"
+            android:orientation="vertical">
+
+            <!-- Tổng giá tiền -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tổng giá tiền"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp" />
+
+            <TextView
+                android:id="@+id/TongTien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.708.651 VND"
+                android:textColor="#FF0000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp" />
+
+            <Button
+                android:id="@+id/xacnhan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:textColor="@color/white"
+                android:backgroundTint="#077BF8"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
